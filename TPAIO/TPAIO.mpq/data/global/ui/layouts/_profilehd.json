@@ -1295,7 +1295,7 @@
         }
     },
     "StyleDictionaryRunewordRune": {
-        "fontColor": "$FontColorWhite",
+        "fontColor": "$FontColorOrange",
         "pointSize": "$MediumLargeFontSize",
         "alignment": {
             "h": "center",
