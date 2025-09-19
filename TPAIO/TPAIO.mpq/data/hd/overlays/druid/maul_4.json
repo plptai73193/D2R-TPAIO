@@ -1,0 +1,66 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/overlays/druid/maul_4/vfx_druid_maul4.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_polarDisc.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/textures/mask/T_FX_soft_box_mask.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "OverlayDefinition",
+  "name": "maul_4",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 1184995498,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx",
+          "filename": "data/hd/vfx/particles/overlays/common/Maul_4/Maul_4.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+					"type": "TransformDefinitionComponent",
+					"name": "entity_root_TransformDefinition",
+					"position": {
+						"x": 110.0,
+						"y": 100.0,
+						"z": 110.0
+					},
+					"inheritOnlyPosition": true
+				}
+			]
+		},
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 1184995498,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx",
+          "filename": "data/hd/vfx/particles/overlays/druid/maul_4/vfx_druid_maul4.particles",
+          "hardKillOnDestroy": true
+        }
+      ]
+    }
+  ]
+}

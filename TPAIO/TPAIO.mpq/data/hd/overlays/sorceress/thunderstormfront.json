@@ -1,0 +1,48 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "thunderstormfront",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 958835022,
+            "components": []
+        },
+        //뇌우 아이콘
+        {
+        "type": "Entity",
+        "name": "entity_root",
+        "id": 992020576,
+        "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx",
+                    "filename": "data/hd/custom particles/thunderstorm icon/thunderstorm_icon.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 125.0,
+                        "y": 97.0,
+                        "z": 127.0
+                    },
+                    "inheritOnlyPosition": true
+                }
+            ]
+        }
+    ]
+}

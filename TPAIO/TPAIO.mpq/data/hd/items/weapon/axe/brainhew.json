@@ -1,0 +1,581 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/axe/brainhew/brainhew.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/axe/brainhew/weapon_brainhew_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/axe/brainhew/weapon_brainhew_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/axe/brainhew/weapon_brainhew_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/axe/brainhew/weapon_brainhew_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "brainhew",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2328140929,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": -0.2,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0871557444,
+                        "z": 0.0,
+                        "w": 0.9961947
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.15,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.15,
+                                "y": 1.2,
+                                "z": 1.2
+                            }
+                        },
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.1,
+                                "y": 1.15,
+                                "z": 1.15
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.05,
+                                "y": 1.1,
+                                "z": 1.1
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.15,
+                                "y": 1.2,
+                                "z": 1.2
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.1,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.02,
+                                "y": 1.07,
+                                "z": 1.07
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -0.3,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.15,
+                                "y": 1.2,
+                                "z": 1.2
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 0.95,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 31923860,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_brainhew",
+                    "filename": "data/hd/items/weapon/axe/brainhew/brainhew.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+			"type": "Entity",
+			"name": "entity_model",
+			"id": 256627855,
+			"components": [
+				{
+					"type": "ModelDefinitionComponent",
+                    "name": "component_model_brainhew",
+                    "filename": "data/hd/items/weapon/axe/brainhew/brainhew.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+				},
+				{
+					"type": "ObjectEffectDefinitionComponent",
+					"name": "entity_burning_ObjectEffectDefinition",
+					"filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_firegolem_objfx.particles"
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					},
+					"inheritOnlyPosition": false
+				},
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                }
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_vfx",
+			"id": 21016186032,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_iceglint",
+					"filename": "data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": -0.64,
+						"z": 0.79
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_multiplegleam",
+			"id": 2101618603,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_extra1",
+					"filename": "data/hd/vfx/particles/overlays/objects/multigleam/fx_multigleam.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": 2.1514,
+						"z": 0.5
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_lightningsparks",
+			"id": 2101618604,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_extra2",
+					"filename": "data/hd/vfx/particles/missiles/lightning_strike/lightning_br.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": 2.1514,
+						"z": 0.5
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_lightningglow",
+			"id": 2101618605,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_extra3",
+					"filename": "data/hd/vfx/particles/missiles/expansion_lightningpiece/expansion_lightningpiece.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": 2.04,
+						"z": 0.09
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_lightningglow",
+			"id": 2101618605,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_extra3",
+					"filename": "data/hd/vfx/particles/missiles/expansion_lightningpiece/expansion_lightningpiece.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": 2.04,
+						"z": 0.09
+					},
+					"orientation": {
+						"x": 1.0,
+						"y": 2.0,
+						"z": 3.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_lightningglow",
+			"id": 2101618605,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_extra3",
+					"filename": "data/hd/vfx/particles/missiles/expansion_lightningpiece/expansion_lightningpiece.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": 2.04,
+						"z": 0.09
+					},
+					"orientation": {
+						"x": -1.0,
+						"y": -2.0,
+						"z": -3.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		},
+		{
+			"type": "Entity",
+			"name": "entity_lightningorb",
+			"id": 2101618606,
+			"components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+				{
+					"type": "VfxDefinitionComponent",
+					"name": "entity_extra4",
+					"filename": "data/hd/vfx/particles/character/enemy/lightningspire/fx_lightningspire_ambient_ball.particles",
+					"hardKillOnDestroy": true
+				},
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "vfx_transform",
+					"position": {
+						"x": 0.0,
+						"y": -5.1,
+						"z": 0.09
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+						"x": 1.0,
+						"y": 1.0,
+						"z": 1.0
+					},
+					"inheritOnlyPosition": false
+				}
+			]
+		}
+    ]
+}

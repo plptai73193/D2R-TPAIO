@@ -1,0 +1,66 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/overlays/druid/feralrage_5/vfx_druid_feralrage_5.particles"
+      }
+    ],
+    "models": [
+      {
+        "path": "data/hd/vfx/meshes/fx_mesh_polarDisc.model"
+      }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      {
+        "path": "data/hd/vfx/textures/light/T_FX_light_basic_glow.texture"
+      }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "OverlayDefinition",
+  "name": "feralrage_5",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 3324326148,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx",
+          "filename": "data/hd/vfx/particles/overlays/druid/feralrage_5/vfx_druid_feralrage_5.particles",
+          "hardKillOnDestroy": true
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 2857673016,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx",
+          "filename": "data/hd/vfx/particles/overlays/common/Maul_5/Maul_5.particles",
+          "hardKillOnDestroy": true
+        },
+        {
+					"type": "TransformDefinitionComponent",
+					"name": "entity_root_TransformDefinition",
+					"position": {
+						"x": 110.0,
+						"y": 100.0,
+						"z": 110.0
+					},
+					"inheritOnlyPosition": true
+				}
+			]
+		}
+  ]
+}

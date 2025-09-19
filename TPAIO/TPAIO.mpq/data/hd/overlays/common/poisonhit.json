@@ -1,0 +1,116 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/overlays/common/poisonhit/fx_poison_hit.particles"
+            }
+        ],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/mask/T_FX_Flash_Center.texture"
+            }
+       ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "poisonhit",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2033641635,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx",
+                    "filename": "data/hd/vfx/particles/overlays/common/poisonhit/fx_poison_hit.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },{
+            "type": "Entity",
+            "name": "entity_vfx2",
+            "id": 1565716743,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx1",
+                    "filename": "data/hd/vfx/particles/missiles/poison_greater_mummy_breath/fx_poison_greater_mummy_breath.particles",
+                    "hardKillOnDestroy": false
+                }, {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 2.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx3",
+            "id": 1565716746,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx2",
+                    "filename": "data/hd/vfx/particles/missiles/poison_greater_mummy_breath/fx_poison_greater_mummy_breath.particles",
+                    "hardKillOnDestroy": false
+                }, {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.4
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },        {
+            "type": "Entity",
+            "name": "entity_vfx5",
+            "id": 1565716746,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx3",
+                    "filename": "data/hd/vfx/particles/character/enemy/maggotqueen1/vfx_maggotqueen1_death_decal.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
+    ]
+}

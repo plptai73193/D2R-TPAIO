@@ -1,0 +1,445 @@
+﻿{
+    "type": "PausePanel",
+    "name": "PauseLayout",
+    "fields": {
+        "priority": 9001,
+        "fitToParent": 1,
+        "defaultWidget": "ReturnToGame",
+        "onlineLogoWidgetPosition": {
+            "y": 140
+        }
+    },
+    "children": [
+        {
+            "type": "RectangleWidget",
+            "name": "TransparentBG",
+            "fields": {
+                "fitToScreen": 1,
+                "color": [
+                    0,
+                    0,
+                    0,
+                    0.5
+                ]
+            },
+            "children": [
+                {
+                    "type": "ClickCatcherWidget",
+                    "name": "catcher",
+                    "fields": {
+                        "fitToParent": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Widget",
+            "name": "LogoWidget",
+            "fields": {
+                "anchor": {
+                    "x": 0.5
+                }
+            },
+            "children": [
+                {
+                    "type": "AnimatedImageWidget",
+                    "name": "FullGlow",
+                    "fields": {
+                        "rect": {
+                            "x": -303,
+                            "y": 171
+                        },
+                        "filename": "LogoAnimation/FullGlow_PC",
+                        "fps": 20
+                    }
+                },
+                {
+                    "type": "AnimatedImageWidget",
+                    "name": "Logo",
+                    "fields": {
+                        "rect": {
+                            "x": -292,
+                            "y": 141
+                        },
+                        "filename": "LogoAnimation/LogoAnimation",
+                        "fps": 20
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "ResurrectedText",
+                    "fields": {
+                        "rect": {
+                            "x": -239,
+                            "y": 473
+                        },
+                        "filename": "LogoAnimation/ResurrectedText"
+                    }
+                },
+                {
+                    "type": "AnimatedImageWidget",
+                    "name": "BottomFlames",
+                    "fields": {
+                        "rect": {
+                            "x": -129,
+                            "y": 511
+                        },
+                        "filename": "LogoAnimation/Logo_BottomFlame",
+                        "fps": 20
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "PauseText",
+            "fields": {
+                "anchor": {
+                    "x": 0.5
+                },
+                "rect": {
+                    "y": 628
+                },
+                "text": "@Paused",
+                "style": {
+                    "fontColor": "$PanelTitleColor",
+                    "pointSize": "$XExtraLargeFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "TableWidget",
+            "name": "PauseTable",
+            "fields": {
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "rect": {
+                    "x": -329,
+                    "y": -340
+                },
+                "columns": [
+                    {
+                        "width": 658,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    }
+                ],
+                "rowHeight": 140,
+                "generateFocusLinks": 1
+            },
+            "children": [
+                {
+                    "type": "TableRowWidget",
+                    "name": "Row Options",
+                    "children": [
+                        {
+                            "type": "ButtonWidget",
+                            "name": "Settings",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@OptionsHD",
+                                "onClickMessage": "PanelManager:OpenPanel:SettingsPanel",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": 1,
+                                "focusOnMouseOver": 1,
+                                "sound": "select"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "Row Save and Exit Game",
+                    "children": [
+                        {
+                            "type": "ButtonWidget",
+                            "name": "Exit",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@SaveAndExit",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PausePanelMessage:ExitGame",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": 1,
+                                "focusOnMouseOver": 1,
+                                "sound": "cursor_select"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "Row Return to Game",
+                    "children": [
+                        {
+                            "type": "ButtonWidget",
+                            "name": "ReturnToGame",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@ReturnToGame",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PausePanelMessage:Close",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": 1,
+                                "focusOnMouseOver": 1,
+                                "sound": "select"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ImageWidget",
+            "name": "AgeDescriptorImage",
+            "fields": {
+                "rect": {
+                    "x": 40,
+                    "y": 80
+                },
+                "filename": "PauseMenu\\age-descriptor"
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "ViolenceDescriptorImage",
+            "fields": {
+                "rect": {
+                    "x": 280,
+                    "y": 80
+                },
+                "filename": "PauseMenu\\descriptor-violence"
+            }
+        },
+        {
+            "type": "TableWidget",
+            "name": "PauseInfoTable",
+            "fields": {
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "rect": {
+                    "x": -680,
+                    "y": 180
+                },
+                "columns": [
+                    {
+                        "width": 680,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    },
+                    {
+                        "width": 680,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    }
+                ],
+                "rowHeight": 140,
+                "generateFocusLinks": true
+            },
+            "children": [
+                {
+                    "type": "TableRowWidget",
+                    "name": "RowItemDictionary1",
+                    "children": [
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextNormalWeapons",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryNormalWeaponMainPanel",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "NormalWeaponDictionary"
+                        },
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextNormalArmors",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryNormalArmorMainPanel",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "NormalArmorDictionary"
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "RowItemDictionary2",
+                    "children": [
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextUniqueWeapons",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryUniqueWeaponMainPanelEng",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "UniqueWeaponDictionary"
+                        },
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextUniqueArmors",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryUniqueArmorMainPanelEng",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "UniqueArmorDictionary"
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "RowItemDictionary3",
+                    "children": [
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextRunewords",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryRunewordMainPanelEng",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "RunewordItemDictionary"
+                        },
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextSetItems",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionarySetItemMainPanelEng",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "SetItemDictionary"
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "RowItemDictionary4",
+                    "children": [
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictTextCubeRecipes",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryCubeRecipeMainPanelEng",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "CubeRecipeDictionary"
+                        },
+                        {
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@dictBreakPoints",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryBreakPointsMainPanel",
+                                "textColor": "$FontColorLightTeal",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            },
+                            "type": "ButtonWidget",
+                            "name": "BreakPoints"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

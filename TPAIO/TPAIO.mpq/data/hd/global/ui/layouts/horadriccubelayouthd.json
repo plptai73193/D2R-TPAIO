@@ -1,0 +1,116 @@
+{
+    "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
+    "fields": {
+        "priority": 10,
+        "anchor": { "x": 1.0, "y": 0.397},
+        "rect": { "x": 236, "y": -651, "width": 2200, "height": 1507 },
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "fields": {
+                "rect": "$PanelClickCatcherRect"
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "CubingArea",
+            "fields": {
+                "anchor": { "x": -0.9650, "y": 0.5302}, //큐브 위치
+                "rect": { "x": -500, "y": -5 },
+                "filename": "PANEL\\Horadric_Cube\\CubingAreaWhitBTN"
+                },
+                "children": [
+                    {
+                    "type": "ClickCatcherWidget", "name": "click_catcher",
+                    "fields": {
+                        "rect": { "x": 0, "y": 0, "width": 485, "height": 708 },
+                        }
+                    },
+                ]
+        },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+            "fields": {
+                        "anchor": { "x": -0.9218, "y": 0.5939}, //그리드 칸 위치
+                        "rect": { "x": -500, "y": -12 },
+                        "cellCount": { "x": 3, "y": 4 },
+                        "cellSize": "$ItemCellSize",
+                        "gemSocketFilename": "PANEL\\gemsocket",
+                    },
+        },
+        {
+            "type": "ImageWidget", "name": "background",
+            "fields": {
+	    "anchor": { "x": -1.64, "y": 0.01}, //설명서 위치
+                "rect": { "x": -720, "y": -50, "scale": 1.05},
+                "filename": "PANEL\\Horadric_Cube\\HoradricCube_BG"
+                },
+                "children": [
+                    {
+                    "type": "ClickCatcherWidget", "name": "click_catcher",
+                    "fields": {
+                        "rect": { "x": 0, "y": 0, "width": 1162, "height": 1507 },
+                        }
+                    },
+                ]
+        },
+        /*{
+            "type": "ImageWidget", "name": "LeftHinge", //왼쪽 힌지 끔
+            "fields": {
+                "rect": "$LeftHingeRect",
+                "filename": "$LeftHingeSprite"
+            },
+        },*/
+        /*{
+            "type": "TextBoxWidget", "name": "title",
+            "fields": {
+                "anchor": { "x": -1.64, "y": 0.01}, //큐브 이름 위치(끔)
+                "rect": "$InGamePanelTitleRect",
+                "style": "$StyleTitleBlock",
+                "text": "@box",
+            },
+        },*/
+        {
+            "type": "ButtonWidget", "name": "convert",
+            "fields": {
+                "anchor": { "x": -0.8809, "y": 0.8806}, //변환 버튼 위치
+                "rect": { "x": -500, "y": 0 },
+                "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+                "tooltipString": "@strUiMenu2",
+                "hoveredFrame": 2,
+                "onClickMessage": "HoradricCubePanelMessage:Convert",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "close",
+            "fields": {
+                "rect": { "x": -2622, "y": 805 }, //클로즈 버튼 위치 (큐브 위치 고정시 -2122)
+                "filename": "PANEL\\closebtn_4x",
+                "hoveredFrame": 3,
+                "tooltipString": "@strClose",
+                "sound": "cursor_close_window_hd",
+                "onClickMessage": "HoradricCubePanelMessage:Close",
+            },
+        },
+        /*{
+	    "type": "ButtonWidget", "name": "hudStr2", //큐빙 헬프(일단끔)
+	    "fields": {
+	    "rect": { "x": 1930, "y": 808, "scale": 0.7 },
+	    //"tooltipString": "@hudpanelStr1",
+	    "filename": "PANEL\\cube_hud",
+	 }
+         },*/
+        {
+            "type": "AnimatedImageWidget", "name": "flourish",
+            "fields": {
+                "rect": { "x": 180, "y": 204, "scale":2 },
+                "filename": "PANEL\\Horadric_Cube\\Flourish",
+                "blendMode": "black",
+                "fps": 14,
+                "playing": false,
+                "loop": false,
+            },
+        },
+    ]
+}
+

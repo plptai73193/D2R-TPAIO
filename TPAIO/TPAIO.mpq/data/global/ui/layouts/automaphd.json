@@ -1,0 +1,48 @@
+{
+    "type": "AutoMapPanel", "name": "AutoMap",
+    "fields": {
+        // Fade none uses maxOpacity
+        // Fade all uses the custom opacity set in the user's settings
+        // Fade auto uses highOpacity on acts 1,3; lowOpacity on acts 1,3 minimap; and maxOpacity otherwise
+        // Fade center uses minOpacity, lowOpacity, and highOpacity as it gets farther from the player
+        "maxOpacity": 1.0,
+        "highOpacity": 1.0,
+        "lowOpacity": 1.0,
+        "minOpacity": 1.0,
+        "priority": -100,
+        "miniScreenSizeFraction": 0.2,
+        // miniminiScreenSizeFraction decide map size
+        "miniTileScale": 0.5,
+        // miniTileScale decide zoom in / out
+        "miniOffsetLeft": { "x": 3052, "y": 20 },
+        // miniOffsetLeft disabled
+        "miniOffsetRight": { "x": -20, "y": 20 },
+        // miniOffsetright decide up / down and left / right
+        "tilesDefaultFilename": [
+            "AUTOMAP/Default00/Tiles",
+            "AUTOMAP/Default01/Tiles",
+            "AUTOMAP/Default02/Tiles",
+            "AUTOMAP/Default03/Tiles",
+            "AUTOMAP/Default04/Tiles",
+            "AUTOMAP/Default05/Tiles",
+            "AUTOMAP/Default06/Tiles",
+            "AUTOMAP/Default07/Tiles",
+            "AUTOMAP/Default08/Tiles",
+            "AUTOMAP/Default09/Tiles",
+            "AUTOMAP/Default10/Tiles",
+            "AUTOMAP/Default11/Tiles",
+            "AUTOMAP/Default12/Tiles",
+            "AUTOMAP/Default13/Tiles",
+            "AUTOMAP/Default14/Tiles",
+        ],
+        "tilesAct2TownFilename": [
+            "AUTOMAP/Act2TownW/Tiles",
+            "AUTOMAP/Act2TownN/Tiles",
+        ],
+        "tilesAct4TownFilename": "AUTOMAP/Act4Town/Tiles",
+        "tilesAct5TownFilename": "AUTOMAP/Act5Town/Tiles",
+        "unitLabelFont": "Chat",
+        "unitLabelOffset": 80,
+        "unitLabelBackgroundOpacity": 0.5,
+    }
+}

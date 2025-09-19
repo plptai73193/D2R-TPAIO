@@ -1,0 +1,597 @@
+{
+    "type": "CharacterCreatePanel", "name": "CharacterCreatePanel",
+    "fields": {
+        "anchor": { "x": 0.5 },
+        "fitToParent": true,
+        "offlineHardcorePosition": { "x": -114, "y": 1902 },
+        "offlineClassicPosition": { "x": 12, "y": 1902 },
+        "barbarianNames": [
+            "Kord",
+            "Brovos",
+            "Haldo",
+            "Agron",
+            "Fyodin",
+            "Haakon",
+            "Keldon",
+            "Madz",
+            "Haggar",
+            "Cronan",
+            "Lokar",
+            "Hogoth",
+            "Hodorr",
+            "Brogoh",
+            "Norhig",
+            "Fjordvik",
+            "Gask",
+            "Baldur",
+            "Titus",
+            "Hoek",
+            "Garran",
+            "Torren",
+            "Gorr",
+            "Lothus",
+            "Magnus",
+            "Ramwolde"
+        ],
+        "amazonNames": [
+            "Freya",
+            "Brunhild",
+            "Freda",
+            "Ossen",
+            "Greyta",
+            "Hildebran",
+            "Andriss",
+            "Rainath",
+            "Fralen",
+            "Anvell",
+            "Gretchynn",
+            "Grunhelda",
+            "Olga",
+            "Heidi",
+            "Skarra",
+            "Morga",
+            "Hannah",
+            "Foedra",
+            "Halgerde",
+            "Thora",
+            "Valla",
+            "Gallinsa",
+            "Renna",
+            "Ameth",
+            "Hartra",
+            "Droga"
+        ],
+        "sorceressNames": [
+            "Destinova",
+            "Chloen",
+            "Xade",
+            "Valeri",
+            "Alina",
+            "Steshany",
+            "Bronwyn",
+            "Azulae",
+            "Morgana",
+            "Terinn",
+            "Ellishara",
+            "Darra",
+            "Evra",
+            "Nnda",
+            "Ista",
+            "Draeka",
+            "Zanna",
+            "Urza",
+            "Genevieve",
+            "Lilac",
+            "Sortia",
+            "Marion",
+            "Cilie",
+            "Gale",
+            "Andonsia",
+            "Amanthea",
+            "Lorenna",
+            "Kestral"
+        ],
+        "paladinNames": [
+            "Burr",
+            "Barrum",
+            "Andrew",
+            "Horvath",
+            "Kannalth",
+            "Lorrust",
+            "Lorinthu",
+            "Meannus",
+            "Mortakkv",
+            "Narris",
+            "Oleffus",
+            "Cathalt",
+            "Carrulle",
+            "Darunne",
+            "Denthil",
+            "Ecundess",
+            "Eerthidyll",
+            "Fortalle",
+            "Fimakus",
+            "Gamullus",
+            "Geomand",
+            "Haranthus",
+            "Iwanul",
+            "Irttadum",
+            "Jeorth",
+            "Juntull",
+            "Kuraltus"
+        ],
+        "necromancerNames": [
+            "Bratan",
+            "Heran",
+            "Valko",
+            "Karos",
+            "Zelik",
+            "Damir",
+            "Rajan",
+            "Xarosan",
+            "Vlas",
+            "Jareth",
+            "Vojkan",
+            "Zrenn",
+            "Goran",
+            "Miro",
+            "Braz",
+            "Mzstlaw",
+            "Zolan",
+            "Malin",
+            "Velin",
+            "Razeth",
+            "Draz",
+            "Zdislav",
+            "Zhell",
+            "Davor",
+            "Kazyh",
+            "Obrenn",
+            "Xen",
+            "Kamen"
+        ],
+        "assassinNames": [
+            "Kara",
+            "Deziray",
+            "Nyka",
+            "Sovyen",
+            "Famki",
+            "Sashenka",
+            "Luvik",
+            "Anselma",
+            "Ivana",
+            "Korrah",
+            "Spirris",
+            "Tilka",
+            "Korsa",
+            "Byalla",
+            "Nall",
+            "Jatherine",
+            "Liv",
+            "Nadia",
+            "Dior",
+            "Tona",
+            "Rilia",
+            "Drachenna",
+            "Nerra",
+            "Vida",
+            "Isadorra"
+        ],
+        "druidNames": [
+            "Ciordan",
+            "Edan",
+            "Nora",
+            "Azgar",
+            "Grey",
+            "Vane",
+            "Mug",
+            "Tadg",
+            "Amergin",
+            "Erwen",
+            "Merlin",
+            "Gwenchlan",
+            "Cathban",
+            "Bodhmall",
+            "Birog",
+            "Gwilherm",
+            "Getafix",
+            "Taliesin",
+            "Albion",
+            "Baird",
+            "Bevyn",
+            "Carden",
+            "Donal",
+            "Finian",
+            "Kegan",
+            "Phelan"
+        ],
+    },
+    "children": [
+        {
+            "type": "Camera3DWidget", "name": "Camera",
+            "fields": {
+                "yawDegrees": -90,
+                "pitchDegrees": 0,
+                "fovDegrees": 22.5,
+                "position": [ 67, 4.7, 484.15 ],
+                "activateOnOpened": true,
+                "frustumBoundsMin": [ -300.0, -2.0, 430.0 ],
+                "frustumBoundsMax": [ 60.0, 60.0, 550.0 ],
+                "playerBoundsMin": [ 30.0, 0.0, 475.0 ],
+                "playerBoundsMax": [ 40.0, 10.0, 490.0 ],
+                "enableOutdoorShadow": true,
+                "overrideFrustumBoundsOnActivate": true,
+                "visDataPath": "data/hd/env/vis/ui_frontend_act1_vignette2.json",
+                "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls",
+            }
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Amazon",
+            "fields": {
+                "rect": { "x": -1610, "y": 640, "width": 344, "height": 932 },
+                "player/playerClass": "Amazon",
+                "player/position": [ 20, 0.5, 496.65 ],
+                "player/scale": 1.21,
+                "player/yawDegrees": 137.5,
+                "player/rightHand": "data/hd/items/weapon/javelin/javelin.json",
+                "player/shield": "data/hd/items/armor/shield/buckler.json",
+                "player/legs": "Light", "player/rightArm": "Light", "player/leftArm": "Light",
+                "player/spec1": "Light", "player/spec2": "Light",
+                "focusIndicatorVisible": false,
+            }
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Assassin",
+            "fields": {
+                "rect": { "x": -1160, "y": 640, "width": 344, "height": 932 },
+                "player/playerClass": "Assassin",
+                "player/position": [ 20, 0.5, 492.82 ],
+                "player/scale": 1.165,
+                "player/yawDegrees": 105,
+                "player/torso": "Light","player/legs": "Light",
+                "focusIndicatorVisible": false,
+            }
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Druid",
+            "fields": {
+                "rect": { "x": -704, "y": 640, "width": 344, "height": 932 },
+                "player/playerClass": "Druid",
+                "player/position": [ 20, 0.5, 488.92 ],
+                "player/scale": 1.15,
+                "player/yawDegrees": 95,
+                "focusIndicatorVisible": false,
+            }
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Barbarian",
+            "fields": {
+                "rect": { "x": -203, "y": 640, "width": 456, "height": 932 },
+                "player/playerClass": "Barbarian",
+                "player/position": [ 20, 0.5, 484.06 ],
+                "player/scale": 1.01,
+                "player/yawDegrees": 85,
+                "player/leftHand": "data/hd/items/weapon/axe/_monsters/monster_battle_axe_01.json",
+                "player/rightHand": "data/hd/items/misc/whetstone/fe_axe_whetstone.json",
+                "focusIndicatorVisible": false,
+            },
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Paladin",
+            "fields": {
+                "rect": { "x": 380, "y": 640, "width": 344, "height": 932 },
+                "player/playerClass": "Paladin",
+                "player/position": [ 20, 0.5, 479.6 ],
+                "player/scale": 1.08,
+                "player/yawDegrees": 90,
+                "player/rightHand": "data/hd/items/weapon/sword/broad_sword.json",
+                "player/shield": "data/hd/items/armor/shield/kite_shield.json",
+                "player/torso": "Light", "player/legs": "Light", "player/rightArm": "Light", "player/leftArm": "Light",
+                "player/spec1": "Light", "player/spec2": "Light",
+                "focusIndicatorVisible": false,
+            }
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Sorceress",
+            "fields": {
+                "rect": { "x": 864, "y": 640, "width": 344, "height": 932 },
+                "player/playerClass": "Sorceress",
+                "player/position": [ 20, 0.5, 475.35 ],
+                "player/scale": 1.13,
+                "player/yawDegrees": 100,
+                "player/rightHand": "data/hd/items/weapon/staff/_monsters/fe_sorceress_staff.json",
+                "focusIndicatorVisible": false,
+            }
+        },
+        {
+            "type": "HDCharacterSelectorWidget", "name": "Necromancer",
+            "fields": {
+                "rect": { "x": 1312, "y": 640, "width": 344, "height": 932 },
+                "player/playerClass": "Necromancer",
+                "player/position": [ 20, 0.5, 471.35 ],
+                "player/scale": 1.075,
+                "player/yawDegrees": 60.0,
+                "player/torso": "Light", "player/legs": "Light", "player/rightArm": "Light", "player/leftArm": "Light",
+                "player/spec1": "Light", "player/spec2": "Light",
+                "focusIndicatorVisible": false,
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "Title",
+            "fields": {
+                "rect": { "x": -390, "y": 125, "width": 800, "height": 50 },
+                "fontType": "30pt",
+                "text": "@strSelectHeroClass",
+                "style": {
+                    "fontColor": "$FontColorGoldYellow",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": { "h": "center" },
+                    "pointSize": "$XExtraLargeFontSize",
+                    "dropShadow": "$DefaultDropShadow",
+                },
+            }
+        },
+
+        // navigation buttons
+        {
+            "type": "Widget", "name": "LeftAnchor",
+            "fields": {
+                "anchor": { "x": -0.5, "y": 1.0 }
+            },
+            "children": [
+                {
+                    "type": "ButtonWidget", "name": "ToMainMenu",
+                    "fields": {
+                        "rect": { "x": 100, "y": -220 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorOffset": { "x": 0, "y": 0 },
+                        "textString": "@UIBack",
+                        "onClickMessage": "FrontEndNavigation:ToCharacterSelect",
+                        "pressedFrame": 1,
+                        "text/style": "$StyleFEButtonText",
+                        "pointSize": "$LargeFontSize",
+                        "textColor": "$LightButtonTextColor",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    }
+                },
+            ]
+        },
+
+        {
+            "type": "Widget", "name": "RightAnchor",
+            "fields": {
+                "anchor": { "x": 0.5, "y": 1.0 }
+            },
+            "children": [
+                {
+                    // Toggle between SD/HD
+                    "type": "ButtonWidget", "name": "ToggleLegacy",
+                    "fields": {
+                        "rect": { "x": -572, "y": -2025 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "textString": "@FrontEndToggleLegacyButtonText",
+                        "tooltipString": "@ToggleRendererHint",
+                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorOffset": { "x": 0, "y": -2 },
+                        "onClickMessage": "CharacterCreate:ToggleLegacy",
+                        "pressedFrame": 1,
+                        "text/style": "$StyleFEButtonText",
+                        "pointSize": "$LargeFontSize",
+                        "textColor": "$LightButtonTextColor",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "ToGame",
+                    "fields": {
+                        "rect": { "x": -572, "y": -220 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                        "focusIndicatorFilename": "Controller/HoverImages/FrontEndButtonMed",
+                        "focusIndicatorOffset": { "x": 0, "y": 0 },
+                        "textString": "@UICreate",
+                        "disabledTooltipString": "@DisabledCharacterCreateTooltip",
+                        "onClickMessage": "CharacterCreate:Create",
+                        "pressedFrame": 1,
+                        "text/style": "$StyleFEButtonText",
+                        "pointSize": "$LargeFontSize",
+                        "textColor": "$LightButtonTextColor",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": { "newlineHandling": "standard" },
+                            }
+                        },
+                    }
+                },
+            ]
+        },
+        {
+            "type": "Widget", "name": "InfoContainer",
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "ClassTitle",
+                    "fields": {
+                        "rect": { "x": -390, "y": 284, "width": 800, "height": 50 },
+                        "style": {
+                            "pointSize": "$HugeFontSize",
+                            "alignment": { "h": "center" },
+                            "spacing": "$ReducedSpacing",
+                            "fontColor": "$FontColorGoldYellow",
+                            "dropShadow": "$DefaultDropShadow",
+                        },
+                    }
+                },
+                {
+                    "type": "TextBoxWidget", "name": "ClassDescription",
+                    "fields": {
+                        "rect": { "x": -490, "y": 400, "width": 1000, "height": 135 },
+                        "style": {
+                            "pointSize": "$LargeFontSize",
+                            "alignment": { "h": "center" },
+                            "spacing": "$ReducedSpacing",
+                            "options": { "lineWrap": true, "newlineHandling": "standard" },
+                            "dropShadow": "$DefaultDropShadow",
+                        },
+                    }
+                },
+            ]
+        },
+        {
+            "type": "Widget", "name": "InputContainer",
+            "fields": {
+                "rect": {"x": 0.0, "y": -50}
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "NameLabel",
+                    "fields": {
+                        "rect": { "x": -290, "y": 1725, "width": 600, "height": 50 },
+                        "fontType": "24pt",
+                        "text": "@strCharacterName",
+                        "style": {
+                            "fontColor": "$FontColorGoldYellow",
+                            "alignment": { "v": "bottom", "h": "center" },
+                            "pointSize": "$LargeFontSize",
+                            "dropShadow": "$DefaultDropShadow",
+                            "spacing" : "$ReducedSpacing"
+                        },
+                    }
+                },
+
+                {
+                    "type": "ImageWidget", "name": "InputBackground",
+                    "fields": {
+                        "rect": { "x": -434, "y": 1778 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_CharNameEntry"
+                    },
+                },
+
+                {
+                    "type": "InputTextBoxWidget", "name": "InputText",
+                    "fields": {
+                        "rect": { "x": -350, "y": 1806, "width": 714, "height": 80 },
+                        "backgroundColor":  { "r": 0, "g": 0, "b": 0, "a": 0 },
+                        "alwaysAcceptsKeyInput": true,
+                        "maxStringLength": 15,
+                        "imeEnabled": true,
+                        "fontStyle": {
+                            "fontFace": "BlizzardGlobal",
+                            "alignment": { "v": "center" },
+                            "pointSize": "$MediumLargeFontSize",
+                        },
+                        "fontType": "12ptF",
+                    }
+                },
+
+                {
+                    "type": "ToggleButtonWidget", "name": "ClassicToggle",
+                    "fields": {
+                        "rect": { "x": 93, "y": 1902 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ClassicIconLarge",
+                        "focusIndicatorFilename": "Controller/HoverImages/CharacterToggle_Hover",
+                        "focusIndicatorOffset": { "x": 2, "y": 0 },
+                        "untoggledFrame": 2,
+                        "toggledFrame": 1,
+                        "toggledPressedFrame": 1,
+                        "untoggledPressedFrame": 1,
+                        "toggledHoveredFrame": 3,
+                        "untoggledHoveredFrame": 0,
+                        "tooltipString": "@TooltipPreExpansionCharacter",
+                        "disabledTooltipString": "@CharacterCreatePreExpansionDisabledTooltip",
+                        "sound": "cursor_character_flag_hd",
+                    }
+                },
+                {
+                    "type": "ToggleButtonWidget", "name": "HardcoreCheckbox",
+                    "fields": {
+                        "rect": { "x": -43, "y": 1902 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_HardcoreIconLarge",
+                        "focusIndicatorFilename": "Controller/HoverImages/CharacterToggle_Hover",
+                        "focusIndicatorOffset": { "x": 2, "y": 0 },
+                        "untoggledFrame": 2,
+                        "toggledFrame": 1,
+                        "toggledPressedFrame": 1,
+                        "untoggledPressedFrame": 1,
+                        "toggledHoveredFrame": 3,
+                        "untoggledHoveredFrame": 0,
+                        "tooltipString": "@TooltipHardcoreCharacter",
+                        "toggledSound": "cursor_hardcore_flag_hd",
+                        "untoggledSound": "cursor_character_flag_hd",
+                    }
+                },
+                {
+                    "type": "ToggleButtonWidget", "name": "LadderToggle",
+                    "fields": {
+                        "rect": { "x": -184, "y": 1902 },
+                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_LadderIconLarge",
+                        "focusIndicatorFilename": "Controller/HoverImages/CharacterToggle_Hover",
+                        "focusIndicatorOffset": { "x": 2, "y": 0 },
+                        "untoggledFrame": 2,
+                        "toggledFrame": 1,
+                        "toggledPressedFrame": 1,
+                        "untoggledPressedFrame": 1,
+                        "toggledHoveredFrame": 3,
+                        "untoggledHoveredFrame": 0,
+                        "tooltipString": "@TooltipLadderCharacter",
+                        "disabledTooltipString": "@D2CommandsLadderNoSeason",
+                        "sound": "cursor_character_flag_hd",
+                    }
+                },
+            ]
+        },
+        {
+            "type": "RectangleWidget", "name": "LoadingScreen",
+            "fields": {
+                "anchor": { "x": -0.5 },
+                "fitToScreen": true,
+            },
+            "children": [
+                {
+                    "type": "ClickCatcherWidget", "name": "catcher",
+                    "fields": {
+                        "fitToParent": true,
+                    }
+                },
+                {
+                    "type": "AnimatedImageWidget", "name": "FullGlow",
+                    "fields": {
+                        "anchor": { "x": 1.0, "y": 1.0 },
+                        "rect": { "x": -400, "y": -400, "scale": 0.5 },
+                        "filename": "LogoAnimation/FullGlow_PC",
+                        "fps": 20,
+                    },
+                },
+                {
+                    "type": "AnimatedImageWidget", "name": "Logo",
+                    "fields": {
+                        "anchor": { "x": 1.0, "y": 1.0 },
+                        "rect": { "x": -399, "y": -392, "scale": 0.5 },
+                        "filename": "LogoAnimation/LogoAnimation",
+                        "fps": 20,
+                    },
+                },
+                {
+                    "type": "ImageWidget", "name": "ResurrectedText",
+                    "fields": {
+                        "anchor": { "x": 1.0, "y": 1.0 },
+                        "rect": { "x": -370, "y": -226, "scale": 0.5 },
+                        "filename": "LogoAnimation/ResurrectedText",
+                    },
+                },
+                {
+                    "type": "AnimatedImageWidget", "name": "BottomFlames",
+                    "fields": {
+                        "anchor": { "x": 1.0, "y": 1.0 },
+                        "rect": { "x": -319, "y": -208, "scale": 0.5 },
+                        "filename": "LogoAnimation/Logo_BottomFlame",
+                        "fps": 20,
+                    },
+                },
+            ]
+       },
+    ]
+}

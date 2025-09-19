@@ -1,0 +1,319 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/sword/_monsters/megademon_sword_03_wax/megademon_sword_03_wax.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/sword/_monsters/megademon_sword_03_wax/weapon_megademon_sword_03_wax_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/_monsters/megademon_sword_03_wax/weapon_megademon_sword_03_wax_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/sword/_monsters/megademon_sword_03_wax/weapon_megademon_sword_03_wax_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "megademon_sword_03_wax",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "root_entity",
+            "id": 3389947492,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_se.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "model_entity",
+            "id": 4262048284,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "model_entity_ModelDefinitionComponent",
+                    "filename": "data/hd/items/weapon/sword/_monsters/megademon_sword_03_wax/megademon_sword_03_wax.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 1731987216,
+            "components": [
+                 {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },                
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/custom particles/Great Saiyan/Blue Great Saiyan/Blue Great Saiyan Thunder Aura.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx_entity_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -7.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.1,
+                        "y": 0.1,
+                        "z": 0.1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 1731987216,
+            "components": [
+                 {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },                
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/custom particles/Great Saiyan/Blue Great Saiyan/Blue Great Saiyan Thunder Aura.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx_entity_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -6.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.1,
+                        "y": 0.1,
+                        "z": 0.1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 1731987216,
+            "components": [
+                 {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },                
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/custom particles/Great Saiyan/Blue Great Saiyan/Blue Great Saiyan Thunder Aura.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx_entity_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -6.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.1,
+                        "y": 0.1,
+                        "z": 0.1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 1731987216,
+            "components": [
+                 {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },                
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/custom particles/Great Saiyan/Blue Great Saiyan/Blue Great Saiyan Thunder Aura.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx_entity_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -5.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.1,
+                        "y": 0.1,
+                        "z": 0.1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 1731987216,
+            "components": [
+                 {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },                
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/custom particles/Great Saiyan/Blue Great Saiyan/Blue Great Saiyan Thunder Aura.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx_entity_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -5.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.1,
+                        "y": 0.1,
+                        "z": 0.1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+         {
+            "type": "Entity",
+            "name": "vfx_entity",
+            "id": 1731987216,
+            "components": [
+                 {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },                
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_VfxDefinition",
+                    "filename": "data/hd/vfx/custom particles/Great Saiyan/Blue Great Saiyan/Blue Great Saiyan Thunder Aura.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx_entity_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -4.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.1,
+                        "y": 0.1,
+                        "z": 0.1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}

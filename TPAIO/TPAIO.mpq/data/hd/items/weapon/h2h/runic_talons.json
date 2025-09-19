@@ -1,0 +1,447 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/weapon/h2h/claws/claws.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/weapon/h2h/claws/weapon_claws_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/h2h/claws/weapon_claws_mask.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/h2h/claws/weapon_claws_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/weapon/h2h/claws/weapon_claws_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "claws",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3969289413,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.551937,
+                        "z": 0.0,
+                        "w": 0.833885849
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 1436402905,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_claws",
+                    "filename": "data/hd/items/weapon/h2h/claws/claws.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius": 19,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "TransformDefinitionComponent002",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.07,
+                        "y": 0.07,
+                        "z": 0.07
+                    },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius": 19,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "TransformDefinitionComponent002",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 0.3
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.07,
+                        "y": 0.07,
+                        "z": 0.07
+                    },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius": 19,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "TransformDefinitionComponent002",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 0.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.07,
+                        "y": 0.07,
+                        "z": 0.07
+                    },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius": 19,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "TransformDefinitionComponent002",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 0.7
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.07,
+                        "y": 0.07,
+                        "z": 0.07
+                    },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius": 19,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "TransformDefinitionComponent002",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.07,
+                        "y": 0.07,
+                        "z": 0.07
+                    },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius": 19,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "TransformDefinitionComponent002",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 1.3
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.07,
+                        "y": 0.07,
+                        "z": 0.07
+                    },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}
