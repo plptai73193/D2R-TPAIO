@@ -491,9 +491,9 @@
   },
   {
     "war_bonnet": {
-      "normal": "helmet/cap_hat",
-      "uber": "helmet/cap_hat",
-      "ultra": "helmet/crown_of_thieves"
+      "normal": "helmet/war_bonnet",
+      "uber": "helmet/war_bonnet",
+      "ultra": "helmet/war_bonnet"
     }
   },
   {

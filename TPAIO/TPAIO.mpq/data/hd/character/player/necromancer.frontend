@@ -846,25 +846,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_head",
-            "id": 418728692,
-            "components": [
-                {
-                    "type": "ModelDefinitionComponent",
-                    "name": "component_model_head",
-                    "filename": "data/hd/character/player/necromancer/head.model",
-                    "visibleLayers": 33,
-                    "lightMask": 19,
-                    "shadowMask": 3,
-                    "ghostShadows": false,
-                    "floorModel": false,
-                    "terrainBlendEnableYUpBlend": false,
-                    "terrainBlendMode": 1
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_torso_lit",
             "id": 803317690,
             "components": [
@@ -936,6 +917,183 @@
                     "terrainBlendEnableYUpBlend": false,
                     "terrainBlendMode": 1
                 }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_lit",
+            "id": 3935221616,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_lit",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/necromancer/head.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/necromancer/head.model",
+                    "visibleLayers": 129,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }        
+            ]
+        },        
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.03,
+                        "z": -0.09
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.07,
+                        "y": 1.06,
+                        "z": 1.15
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
+                    "filename": "data/hd/items/armor/helmet/bone_helm/bone_helm.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/necromancer/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },      
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },              
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.05
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.1,
+                        "y": 1.125,
+                        "z": 1.1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
+                    "filename": "data/hd/items/armor/helmet/wormskull/wormskull.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }   
             ]
         },
         {

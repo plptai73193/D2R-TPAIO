@@ -2367,7 +2367,7 @@
                                             "name": "GammaCalibration",
                                             "fields": {
                                                 "rect": "$StyleDictionaryDefaultImageRect",
-                                                "filename": "items/armor/helmet/crown_of_thieves",
+                                                "filename": "items/armor/helmet/crown",
                                                 "useAdvancedColoring": true,
                                                 "recolorRange": {
                                                     "hue": [

@@ -894,25 +894,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_head",
-            "id": 2924693225,
-            "components": [
-                {
-                    "type": "ModelDefinitionComponent",
-                    "name": "component_model_head",
-                    "filename": "data/hd/character/player/druid/head.model",
-                    "visibleLayers": 33,
-                    "lightMask": 19,
-                    "shadowMask": 3,
-                    "ghostShadows": false,
-                    "floorModel": false,
-                    "terrainBlendEnableYUpBlend": false,
-                    "terrainBlendMode": 1
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_torso_lit",
             "id": 3309216943,
             "components": [
@@ -986,6 +967,183 @@
                 }
             ]
         },
+        {
+            "type": "Entity",
+            "name": "entity_torso_lit",
+            "id": 3935221616,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_lit",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/druid/head.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/druid/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }        
+            ]
+        },        
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.15,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.025,
+                        "y": 1.025,
+                        "z": 1.025
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
+                    "filename": "data/hd/items/armor/pelt/wolf_head/wolf_head.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                } 
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/druid/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },      
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },              
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.055,
+                        "z": 0.058
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 0.9,
+                        "z": 1.175
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
+                    "filename": "data/hd/items/armor/pelt/antlers/antlers.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }      
+            ]
+        },       
         {
             "type": "Entity",
             "name": "entity_legs_lit",

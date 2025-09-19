@@ -894,25 +894,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_head",
-            "id": 2530677035,
-            "components": [
-                {
-                    "type": "ModelDefinitionComponent",
-                    "name": "component_model_head",
-                    "filename": "data/hd/character/player/paladin/head.model",
-                    "visibleLayers": 33,
-                    "lightMask": 19,
-                    "shadowMask": 3,
-                    "ghostShadows": false,
-                    "floorModel": false,
-                    "terrainBlendEnableYUpBlend": false,
-                    "terrainBlendMode": 1
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_torso_lit",
             "id": 2915200753,
             "components": [
@@ -986,6 +967,183 @@
                 }
             ]
         },
+        {
+            "type": "Entity",
+            "name": "entity_torso_lit",
+            "id": 3935221616,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_lit",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/paladin/head.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/paladin/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }           
+            ]
+        },        
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": -0.0008,
+                        "y": 0.0,
+                        "z": 0.1
+                    },
+                    "orientation": {
+                        "x": -0.05,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.02,
+                        "y": 1.0,
+                        "z": 1.05
+                    },
+                    "inheritOnlyPosition": false
+                },
+				{
+					"type": "EntityAttachmentDefinitionComponent",
+					"name": "entity_spectralflames_EntityAttachmentDefinition",
+					"targetbone": "head_bind_jnt"
+				},
+				{
+					"type": "ModelDefinitionComponent",
+					"name": "component_model_assault",
+                    "filename": "data/hd/items/armor/helmet/coif_of_glory/coif_of_glory.model",
+					"visibleLayers": 33,
+					"lightMask": 19,
+					"shadowMask": 3,
+					"ghostShadows": false,
+					"floorModel": false,
+					"terrainBlendEnableYUpBlend": false,
+					"terrainBlendMode": 1
+				}                
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/paladin/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },      
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },              
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "entity_root_TransformDefinition",
+					"position": {
+                        "x": 0.0,
+                        "y": 0.015,
+                        "z": 0.08
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+                        "x": 1.04,
+                        "y": 1.0,
+                        "z": 1.05
+					},
+					"inheritOnlyPosition": false
+				},
+				{
+					"type": "EntityAttachmentDefinitionComponent",
+					"name": "entity_spectralflames_EntityAttachmentDefinition",
+					"targetbone": "head_bind_jnt"
+				},
+				{
+					"type": "ModelDefinitionComponent",
+					"name": "component_model_assault",
+                    "filename": "data/hd/items/armor/helmet/great_helm/great_helm.model",
+					"visibleLayers": 33,
+					"lightMask": 19,
+					"shadowMask": 3,
+					"ghostShadows": false,
+					"floorModel": false,
+					"terrainBlendEnableYUpBlend": false,
+					"terrainBlendMode": 1
+				}                
+            ]
+        },         
         {
             "type": "Entity",
             "name": "entity_legs_lit",
@@ -1358,6 +1516,42 @@
                     "floorModel": false,
                     "terrainBlendEnableYUpBlend": false,
                     "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_holyshield",
+            "id": 3452340888,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_holyshield_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/items/Paladin/holyshield/fx_holyshield.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_holyshield_EntityAttachmentDefinition",
+                    "targetbone": "shield_attach"
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_holyshield_UnitPart",
+                    "part": "shield",
+                    "variant": "hsh"
+                },
+                {
+                    "type": "ModelPlatformTierComponent",
+                    "name": "entity_holyshield_ModelPlatformTierComponent",
+                    "visibilityTier": 0,
+                    "shadowTier": 1
+                },
+                {
+                    "type": "EnableEquipmentAnimationLayerComponent",
+                    "name": "entity_holyshield_EnableEquipmentAnimationLayer",
+                    "equipmentLayerName": "ShieldEquipLayer",
+                    "defaultEnabledWeight": 1.0
                 }
             ]
         },

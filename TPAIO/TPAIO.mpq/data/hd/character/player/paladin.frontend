@@ -894,25 +894,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_head",
-            "id": 2530677035,
-            "components": [
-                {
-                    "type": "ModelDefinitionComponent",
-                    "name": "component_model_head",
-                    "filename": "data/hd/character/player/paladin/head.model",
-                    "visibleLayers": 33,
-                    "lightMask": 19,
-                    "shadowMask": 3,
-                    "ghostShadows": false,
-                    "floorModel": false,
-                    "terrainBlendEnableYUpBlend": false,
-                    "terrainBlendMode": 1
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_torso_lit",
             "id": 2915200753,
             "components": [
@@ -986,6 +967,183 @@
                 }
             ]
         },
+        {
+            "type": "Entity",
+            "name": "entity_torso_lit",
+            "id": 3935221616,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_lit",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/paladin/head.model",
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/paladin/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }           
+            ]
+        },        
+        {
+            "type": "Entity",
+            "name": "entity_torso_med",
+            "id": 495578152,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_med",
+                    "part": "torso",
+                    "variant": "med"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": -0.0008,
+                        "y": 0.0,
+                        "z": 0.1
+                    },
+                    "orientation": {
+                        "x": -0.05,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.02,
+                        "y": 1.0,
+                        "z": 1.05
+                    },
+                    "inheritOnlyPosition": false
+                },
+				{
+					"type": "EntityAttachmentDefinitionComponent",
+					"name": "entity_spectralflames_EntityAttachmentDefinition",
+					"targetbone": "head_bind_jnt"
+				},
+				{
+					"type": "ModelDefinitionComponent",
+					"name": "component_model_assault",
+                    "filename": "data/hd/items/armor/helmet/coif_of_glory/coif_of_glory.model",
+					"visibleLayers": 33,
+					"lightMask": 19,
+					"shadowMask": 3,
+					"ghostShadows": false,
+					"floorModel": false,
+					"terrainBlendEnableYUpBlend": false,
+					"terrainBlendMode": 1
+				}                
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_head",
+                    "filename": "data/hd/character/player/paladin/head.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },      
+        {
+            "type": "Entity",
+            "name": "entity_torso_hvy",
+            "id": 3063055032,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso_hvy",
+                    "part": "torso",
+                    "variant": "hvy"
+                },              
+				{
+					"type": "TransformDefinitionComponent",
+					"name": "entity_root_TransformDefinition",
+					"position": {
+                        "x": 0.0,
+                        "y": 0.015,
+                        "z": 0.08
+					},
+					"orientation": {
+						"x": 0.0,
+						"y": 0.0,
+						"z": 0.0,
+						"w": 1.0
+					},
+					"scale": {
+                        "x": 1.04,
+                        "y": 1.0,
+                        "z": 1.05
+					},
+					"inheritOnlyPosition": false
+				},
+				{
+					"type": "EntityAttachmentDefinitionComponent",
+					"name": "entity_spectralflames_EntityAttachmentDefinition",
+					"targetbone": "head_bind_jnt"
+				},
+				{
+					"type": "ModelDefinitionComponent",
+					"name": "component_model_assault",
+                    "filename": "data/hd/items/armor/helmet/great_helm/great_helm.model",
+					"visibleLayers": 33,
+					"lightMask": 19,
+					"shadowMask": 3,
+					"ghostShadows": false,
+					"floorModel": false,
+					"terrainBlendEnableYUpBlend": false,
+					"terrainBlendMode": 1
+				}                
+            ]
+        },         
         {
             "type": "Entity",
             "name": "entity_legs_lit",
@@ -1398,732 +1556,768 @@
             ]
         },
         {
-      "type": "Entity",
-      "name": "entity_holyshield",
-      "id": 3452340888,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_holyshield_VfxDefinition",
-          "filename": "data/hd/vfx/particles/items/Paladin/holyshield/fx_holyshield.particles",
-          "hardKillOnDestroy": true
+            "type": "Entity",
+            "name": "entity_holyshield",
+            "id": 3452340888,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_holyshield_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/items/Paladin/holyshield/fx_holyshield.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_holyshield_EntityAttachmentDefinition",
+                    "targetbone": "shield_attach"
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_holyshield_UnitPart",
+                    "part": "shield",
+                    "variant": "hsh"
+                },
+                {
+                    "type": "ModelPlatformTierComponent",
+                    "name": "entity_holyshield_ModelPlatformTierComponent",
+                    "visibilityTier": 0,
+                    "shadowTier": 1
+                },
+                {
+                    "type": "EnableEquipmentAnimationLayerComponent",
+                    "name": "entity_holyshield_EnableEquipmentAnimationLayer",
+                    "equipmentLayerName": "ShieldEquipLayer",
+                    "defaultEnabledWeight": 1.0
+                }
+            ]
         },
         {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_holyshield_EntityAttachmentDefinition",
-          "targetbone": "shield_attach"
+            "type": "Entity",
+            "name": "entity_holyshield",
+            "id": 3452340888,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_holyshield_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/items/Paladin/holyshield/fx_holyshield.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_holyshield_EntityAttachmentDefinition",
+                    "targetbone": "shield_attach"
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_holyshield_UnitPart",
+                    "part": "shield",
+                    "variant": "hsh"
+                },
+                {
+                    "type": "ModelPlatformTierComponent",
+                    "name": "entity_holyshield_ModelPlatformTierComponent",
+                    "visibilityTier": 0,
+                    "shadowTier": 1
+                },
+                {
+                    "type": "EnableEquipmentAnimationLayerComponent",
+                    "name": "entity_holyshield_EnableEquipmentAnimationLayer",
+                    "equipmentLayerName": "ShieldEquipLayer",
+                    "defaultEnabledWeight": 1
+                }
+            ]
         },
         {
-          "type": "UnitPartComponent",
-          "name": "entity_holyshield_UnitPart",
-          "part": "shield",
-          "variant": "hsh"
+            "type": "Entity",
+            "name": "entity_wings_shell",
+            "id": 2343070520,
+            "components": [
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_wings_shell_ModelDefinition001",
+                    "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_wings_shell_TransformDefinition001",
+                    "position": {
+                        "x": 1.0,
+                        "y": -1.6,
+                        "z": -2.0
+                    },
+                    "orientation": {
+                        "x": 0.15,
+                        "y": 0.0,
+                        "z": -0.6,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.25,
+                        "y": 0.35,
+                        "z": 0.25
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_shell_ObjectEffectDefinition001",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles"
+                }
+            ]
         },
         {
-          "type": "ModelPlatformTierComponent",
-          "name": "entity_holyshield_ModelPlatformTierComponent",
-          "visibilityTier": 0,
-          "shadowTier": 1
+            "type": "Entity",
+            "name": "entity_wings_shell",
+            "id": 2343070520,
+            "components": [
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_wings_shell_ModelDefinition001",
+                    "filename": "data/hd/character/npc/izualghost/bottomwings_vfx_lod0.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_wings_shell_TransformDefinition001",
+                    "position": {
+                        "x": -1.0,
+                        "y": -1.6,
+                        "z": -2.0
+                    },
+                    "orientation": {
+                        "x": 0.15,
+                        "y": 0.0,
+                        "z": 0.6,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.25,
+                        "y": 0.35,
+                        "z": 0.25
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_shell_ObjectEffectDefinition001",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles"
+                }
+            ]
         },
         {
-          "type": "EnableEquipmentAnimationLayerComponent",
-          "name": "entity_holyshield_EnableEquipmentAnimationLayer",
-          "equipmentLayerName": "ShieldEquipLayer",
-          "defaultEnabledWeight": 1
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 3235982752,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 4.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 3235982752,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_TransformDefinition",
+                    "position": {
+                        "x": 1.2,
+                        "y": 3.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 3235982752,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_TransformDefinition",
+                    "position": {
+                        "x": -1.0,
+                        "y": 3.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 3235982752,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_TransformDefinition",
+                    "position": {
+                        "x": 1.2,
+                        "y": 2.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 3235982752,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_TransformDefinition",
+                    "position": {
+                        "x": -1.0,
+                        "y": 2.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_wings_shell",
+            "id": 2343070520,
+            "components": [
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_wings_shell_ModelDefinition001",
+                    "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_wings_shell_TransformDefinition001",
+                    "position": {
+                        "x": 0.0,
+                        "y": -7.47,
+                        "z": -2.0
+                    },
+                    "orientation": {
+                        "x": 0.15,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.25,
+                        "y": 0.35,
+                        "z": 0.25
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_shell_ObjectEffectDefinition001",
+                    "filename": "data/hd/vfx/particles/character/enemy/bear/vfx_bear_skill1_objectfx.particles"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_wings_shell",
+            "id": 2343070520,
+            "components": [
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_wings_shell_ModelDefinition001",
+                    "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_wings_shell_TransformDefinition001",
+                    "position": {
+                        "x": 0.0,
+                        "y": -7.47,
+                        "z": -2.0
+                    },
+                    "orientation": {
+                        "x": 0.15,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.25,
+                        "y": 0.35,
+                        "z": 0.25
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_shell_ObjectEffectDefinition001",
+                    "filename": "data/hd/vfx/particles/character/enemy/diablo/vfx_diablo_death_spirit_objfx.particles"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_wings_shell",
+            "id": 2343070520,
+            "components": [
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "entity_wings_shell_ModelDefinition001",
+                    "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_wings_shell_TransformDefinition001",
+                    "position": {
+                        "x": 0.0,
+                        "y": -7.47,
+                        "z": -2.0
+                    },
+                    "orientation": {
+                        "x": 0.15,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.25,
+                        "y": 0.35,
+                        "z": 0.25
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_shell_ObjectEffectDefinition001",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings_glow.particles"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.5,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.5,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.5,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.5,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -1.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.8,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx",
+            "id": 2535351568,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 5.5,
+                        "z": -1.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -0.8,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.5,
+                        "y": 0.5,
+                        "z": 0.5
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
         }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 1.0,
-            "y": -1.6,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": -0.6,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_vfx_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": -1.0,
-            "y": -1.6,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.6,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 4.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": 1.2,
-            "y": 3.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": -1.0,
-            "y": 3.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": 1.2,
-            "y": 2.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": -1.0,
-            "y": 2.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 0.0,
-            "y": -7.47,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/bear/vfx_bear_skill1_objectfx.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 0.0,
-            "y": -7.47,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/diablo/vfx_diablo_death_spirit_objfx.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 0.0,
-            "y": -7.47,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings_glow.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.5,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -0.5,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.5,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -0.5,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -1.0,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 1.0,
-                  "y": 1.0,
-                  "z": 1.0
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.8,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 0.5,
-                  "y": 0.5,
-                  "z": 0.5
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  },
-  {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-          {
-              "type": "VfxDefinitionComponent",
-              "name": "entity_vfx_VfxDefinition",
-              "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-              "hardKillOnDestroy": true
-          },
-          {
-              "type": "TransformDefinitionComponent",
-              "name": "entity_vfx_lights_TransformDefinition",
-              "position": {
-                  "x": 0.0,
-                  "y": 5.5,
-                  "z": -1.0
-              },
-              "orientation": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": -0.8,
-                  "w": 1.0
-              },
-              "scale": {
-                  "x": 0.5,
-                  "y": 0.5,
-                  "z": 0.5
-              },
-              "inheritOnlyPosition": false
-          }
-      ]
-  }
     ]
 }
