@@ -1716,9 +1716,9 @@
   },
   {
     "harlequin_crest": {
-      "normal": "helmet/crown_of_thieves",
-      "uber": "helmet/crown_of_thieves",
-      "ultra": "helmet/crown_of_thieves"
+      "normal": "helmet/harlequin_crest",
+      "uber": "helmet/harlequin_crest",
+      "ultra": "helmet/harlequin_crest"
     }
   },
   {
@@ -2283,9 +2283,9 @@
   },
   {
     "griffons_eye": {
-      "normal": "circlet/diadem",
-      "uber": "circlet/tiara",
-      "ultra": "circlet/diadem"
+      "normal": "circlet/griffon_eye",
+      "uber": "circlet/griffon_eye",
+      "ultra": "circlet/griffon_eye"
     }
   },
   {
@@ -2325,23 +2325,23 @@
   },
   {
     "nightwings_veil": {
-      "normal": "helmet/great_helm",
-      "uber": "helmet/great_helm",
-      "ultra": "helmet/great_helm"
+      "normal": "helmet/nightwing",
+      "uber": "helmet/nightwing",
+      "ultra": "helmet/nightwing"
     }
   },
   {
     "crown_of_ages": {
-      "normal": "helmet/crown",
-      "uber": "helmet/crown",
-      "ultra": "helmet/crown"
+      "normal": "helmet/crown_of_ages",
+      "uber": "helmet/crown_of_ages",
+      "ultra": "helmet/crown_of_ages"
     }
   },
   {
     "andariels_visage": {
-      "normal": "helmet/mask",
-      "uber": "helmet/mask",
-      "ultra": "helmet/mask"
+      "normal": "helmet/andariels_visage",
+      "uber": "helmet/andariels_visage",
+      "ultra": "helmet/andariels_visage"
     }
   },
   {
@@ -2367,9 +2367,9 @@
   },
   {
     "ravenlore": {
-      "normal": "pelt/falcon_mask",
-      "uber": "pelt/falcon_mask",
-      "ultra": "pelt/falcon_mask"
+      "normal": "pelt/ravenlore",
+      "uber": "pelt/ravenlore",
+      "ultra": "pelt/ravenlore"
     }
   },
   {
@@ -2409,9 +2409,9 @@
   },
   {
     "kiras_guardian": {
-      "normal": "circlet/tiara",
-      "uber": "circlet/tiara",
-      "ultra": "circlet/diadem"
+      "normal": "circlet/kiras_guardian",
+      "uber": "circlet/kiras_guardian",
+      "ultra": "circlet/kiras_guardian"
     }
   },
   {
@@ -2542,9 +2542,9 @@
   },
   {
     "giantskull": {
-      "normal": "helmet/wormskull",
-      "uber": "helmet/wormskull",
-      "ultra": "helmet/wormskull"
+      "normal": "helmet/giant_skull",
+      "uber": "helmet/giant_skull",
+      "ultra": "helmet/giant_skull"
     }
   },
   {

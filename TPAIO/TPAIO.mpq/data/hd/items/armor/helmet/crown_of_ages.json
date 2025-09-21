@@ -1,0 +1,319 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_lights.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/character/npc/tyrael1/Wing_Shell.model"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/wings.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/npc/tyrael1/skeleton/tyrael1.skeleton"
+            }
+        ],
+        "animations": [
+            {
+                "path": "data/hd/character/npc/tyrael1/animation/combined.animations"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/animation/combined.timelines"
+            }
+        ],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_alb.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_orm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_alb.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_orm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_alb.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_orm.texture"
+            },
+            {
+                "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/White.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/npc/tyrael1/tyrael1_state_machine.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [
+            {
+                "path": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles",
+                "dependency": ""
+            },
+            {
+                "path": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings_shell.particles",
+                "dependency": ""
+            }
+        ],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "diadem",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2664358397,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_xbows_flip_sw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/npc/tyrael1/skeleton/tyrael1.skeleton"
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -6.8,
+                                "z": 0.7
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.1,
+                                "y": 1.13,
+                                "z": 1.0
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -6.8,
+                                "z": 0.7
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.2,
+                                "y": 1.1,
+                                "z": 1.1
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -6.8,
+                                "z": 0.7
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.05,
+                                "y": 1.05,
+                                "z": 1.0
+                            }
+                        },
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -6.8,
+                                "z": 0.7
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.12,
+                                "y": 1.05,
+                                "z": 1.1
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -7.2,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.25,
+                                "y": 1.13,
+                                "z": 1.0
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -6.8,
+                                "z": 0.7
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.12,
+                                "y": 1.05,
+                                "z": 1.1
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.0,
+                                "y": -6.8,
+                                "z": 0.7
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.12,
+                                "y": 1.05,
+                                "z": 1.1
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.1,
+                        "y": 0.0,
+                        "z": -0.1
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.130526185,
+                        "z": 0.0,
+                        "w": 0.9914449
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model1",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_wings",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 2.0,
+                        "z": 0.6
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": -0.28,
+                        "w": 0.0
+                    },
+                    "scale": {
+                        "x": 0.5,
+                        "y": 0.6,
+                        "z": 0.6
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_Vfx_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                }
+
+            ]
+        }
+    ]
+}

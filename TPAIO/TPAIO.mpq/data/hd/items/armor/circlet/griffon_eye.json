@@ -1,0 +1,1085 @@
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_lights.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/character/npc/tyrael1/Wing_Shell.model"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/wings.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/character/npc/tyrael1/skeleton/tyrael1.skeleton"
+            }
+        ],
+        "animations": [
+            {
+                "path": "data/hd/character/npc/tyrael1/animation/combined.animations"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/animation/combined.timelines"
+            }
+        ],
+        "textures": [
+            {
+                "path": "data/hd/character/common/common_alb.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/common/common_orm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_alb.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_body_orm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_alb.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_nrm.texture"
+            },
+            {
+                "path": "data/hd/character/npc/tyrael1/textures/tyrel_head_orm.texture"
+            },
+            {
+                "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/White.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/character/npc/tyrael1/tyrael1_state_machine.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [
+            {
+                "path": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles",
+                "dependency": ""
+            },
+            {
+                "path": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings_shell.particles",
+                "dependency": ""
+            }
+        ],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "diadem",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 2664358397,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/character/npc/tyrael1/tyrael1_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/character/npc/tyrael1/skeleton/tyrael1.skeleton"
+                },
+                {
+                    "type": "OverrideAttachmentTransformComponent",
+                    "name": "entity_root_OverrideAttachmentTransform",
+                    "playerClassTransforms": {
+                        "0": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Amazon",
+                            "translation": {
+                                "x": 0.3,
+                                "y": -7.0,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.1,
+                                "y": 1.13,
+                                "z": 1.0
+                            }
+                        },
+                        "3": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Paladin",
+                            "translation": {
+                                "x": 0.3,
+                                "y": -7.0,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.2,
+                                "y": 1.1,
+                                "z": 1.1
+                            }
+                        },
+                        "6": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
+                            "translation": {
+                                "x": 0.3,
+                                "y": -6.5,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.05,
+                                "y": 1.05,
+                                "z": 1.0
+                            }
+                        },
+                        "4": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Barbarian",
+                            "translation": {
+                                "x": 0.3,
+                                "y": -7.0,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.12,
+                                "y": 1.05,
+                                "z": 1.1
+                            }
+                        },
+                        "2": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Necromancer",
+                            "translation": {
+                                "x": 0,
+                                "y": -7.3,
+                                "z": 0
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.12,
+                                "y": 1.05,
+                                "z": 1.1
+                            }
+                        },
+                        "1": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Sorceress",
+                            "translation": {
+                                "x": 0.3,
+                                "y": -7.0,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.12,
+                                "y": 1.05,
+                                "z": 1.1
+                            }
+                        },
+                        "5": {
+                            "type": "Transform",
+                            "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Druid",
+                            "translation": {
+                                "x": 0.3,
+                                "y": -7.0,
+                                "z": 0.2
+                            },
+                            "rotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "scale": {
+                                "x": 1.2,
+                                "y": 1.2,
+                                "z": 1.2
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.1,
+                        "y": 0.0,
+                        "z": -0.1
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.130526185,
+                        "z": 0.0,
+                        "w": 0.9914449
+                    },
+                    "scale": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-1",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.7
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-2",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.71
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-3",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.72
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-4",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.73
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-5",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.74
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-6",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.75
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-7",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.76
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-8",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.77
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-9",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.78
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-10",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.79
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-11",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.8
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-12",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.81
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-13",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.82
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-14",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.83
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-15",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/wings.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.84
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+
+
+
+        {
+            "type": "Entity",
+            "name": "entity_vfx_lights",
+            "id": 1338750443,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_vfx_lights_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_lights.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -6.5,
+                        "z": -0.5
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_vfx_lights_EntityAttachmentDefinition",
+                    "targetbone": "root"
+                }
+            ]
+        }
+    ]
+}

@@ -984,7 +984,7 @@
                     "terrainBlendMode": 1
                 }
             ]
-        },      
+        },
         {
             "type": "Entity",
             "name": "entity_torso_lit",
@@ -1021,46 +1021,46 @@
                     "part": "torso",
                     "variant": "lit"
                 },
-				{
-					"type": "TransformDefinitionComponent",
-					"name": "entity_root_TransformDefinition",
-					"position": {
-						"x": 0.0,
-						"y": -0.15,
-						"z": 0.05
-					},
-					"orientation": {
-						"x": 0.0,
-						"y": 0.0,
-						"z": 0.0,
-						"w": 1.0
-					},
-					"scale": {
-						"x": 0.85,
-						"y": 1.0,
-						"z": 1.0
-					},
-					"inheritOnlyPosition": false
-				},
-				{
-					"type": "EntityAttachmentDefinitionComponent",
-					"name": "entity_spectralflames_EntityAttachmentDefinition",
-					"targetbone": "helmet"
-				},
-				{
-					"type": "ModelDefinitionComponent",
-					"name": "component_model_assault",
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.15,
+                        "z": 0.05
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.85,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
                     "filename": "data/hd/items/armor/helmet/cap_hat/cap_hat.model",
-					"visibleLayers": 33,
-					"lightMask": 19,
-					"shadowMask": 3,
-					"ghostShadows": false,
-					"floorModel": false,
-					"terrainBlendEnableYUpBlend": false,
-					"terrainBlendMode": 1
-				}   
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
             ]
-        },        
+        },
         {
             "type": "Entity",
             "name": "entity_torso_med",
@@ -1083,9 +1083,9 @@
                     "floorModel": false,
                     "terrainBlendEnableYUpBlend": false,
                     "terrainBlendMode": 1
-                }        
+                }
             ]
-        },        
+        },
         {
             "type": "Entity",
             "name": "entity_torso_med",
@@ -1097,44 +1097,44 @@
                     "part": "torso",
                     "variant": "med"
                 },
-				{
-					"type": "TransformDefinitionComponent",
-					"name": "entity_root_TransformDefinition",
-					"position": {
-						"x": 0.0,
-						"y": -0.15,
-						"z": 0.05
-					},
-					"orientation": {
-						"x": 0.0,
-						"y": 0.0,
-						"z": 0.0,
-						"w": 1.0
-					},
-					"scale": {
-						"x": 0.85,
-						"y": 1.0,
-						"z": 1.0
-					},
-					"inheritOnlyPosition": false
-				},
-				{
-					"type": "EntityAttachmentDefinitionComponent",
-					"name": "entity_spectralflames_EntityAttachmentDefinition",
-					"targetbone": "helmet"
-				},
-				{
-					"type": "ModelDefinitionComponent",
-					"name": "component_model_assault",
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.15,
+                        "z": 0.05
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.85,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
                     "filename": "data/hd/items/armor/helmet/cap_hat/cap_hat.model",
-					"visibleLayers": 33,
-					"lightMask": 19,
-					"shadowMask": 3,
-					"ghostShadows": false,
-					"floorModel": false,
-					"terrainBlendEnableYUpBlend": false,
-					"terrainBlendMode": 1
-				}    
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
             ]
         },
         {
@@ -1161,7 +1161,7 @@
                     "terrainBlendMode": 1
                 }
             ]
-        },      
+        },
         {
             "type": "Entity",
             "name": "entity_torso_hvy",
@@ -1172,47 +1172,47 @@
                     "name": "component_part_torso_hvy",
                     "part": "torso",
                     "variant": "hvy"
-                },              
-				{
-					"type": "TransformDefinitionComponent",
-					"name": "entity_root_TransformDefinition",
-					"position": {
-						"x": 0.0,
-						"y": -0.15,
-						"z": 0.05
-					},
-					"orientation": {
-						"x": 0.0,
-						"y": 0.0,
-						"z": 0.0,
-						"w": 1.0
-					},
-					"scale": {
-						"x": 0.85,
-						"y": 1.0,
-						"z": 1.0
-					},
-					"inheritOnlyPosition": false
-				},
-				{
-					"type": "EntityAttachmentDefinitionComponent",
-					"name": "entity_spectralflames_EntityAttachmentDefinition",
-					"targetbone": "helmet"
-				},
-				{
-					"type": "ModelDefinitionComponent",
-					"name": "component_model_assault",
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.15,
+                        "z": 0.05
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 0.85,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "helmet"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
                     "filename": "data/hd/items/armor/helmet/cap_hat/cap_hat.model",
-					"visibleLayers": 33,
-					"lightMask": 19,
-					"shadowMask": 3,
-					"ghostShadows": false,
-					"floorModel": false,
-					"terrainBlendEnableYUpBlend": false,
-					"terrainBlendMode": 1
-				}  
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
             ]
-        },       
+        },
         {
             "type": "Entity",
             "name": "entity_legs_lit",
@@ -1438,697 +1438,277 @@
                 }
             ]
         },
-        {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 1.0,
-            "y": -1.6,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": -0.6,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_vfx_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": -1.0,
-            "y": -1.6,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.6,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 4.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": 1.2,
-            "y": 3.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": -1.0,
-            "y": 3.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": 1.2,
-            "y": 2.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 3235982752,
-      "components": [
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_TransformDefinition",
-          "position": {
-            "x": -1.0,
-            "y": 2.5,
-            "z": 0.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
-          "hardKillOnDestroy": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 0.0,
-            "y": -7.47,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/bear/vfx_bear_skill1_objectfx.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 0.0,
-            "y": -7.47,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/diablo/vfx_diablo_death_spirit_objfx.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_wings_shell",
-      "id": 2343070520,
-      "components": [
-        {
-          "type": "EntityAttachmentDefinitionComponent",
-          "name": "entity_spectralflames_EntityAttachmentDefinition",
-          "targetbone": "helmet"
-        },
-        {
-          "type": "ModelDefinitionComponent",
-          "name": "entity_wings_shell_ModelDefinition001",
-          "filename": "data/hd/character/npc/izualghost/bottomwings_lod0.model",
-          "visibleLayers": 1073741824,
-          "lightMask": 19,
-          "shadowMask": 3,
-          "ghostShadows": false,
-          "floorModel": false,
-          "terrainBlendEnableYUpBlend": false,
-          "terrainBlendMode": 1
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_wings_shell_TransformDefinition001",
-          "position": {
-            "x": 0.0,
-            "y": -7.47,
-            "z": -2.0
-          },
-          "orientation": {
-            "x": 0.15,
-            "y": 0.0,
-            "z": 0.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.25,
-            "y": 0.35,
-            "z": 0.25
-          },
-          "inheritOnlyPosition": false
-        },
-        {
-          "type": "ObjectEffectDefinitionComponent",
-          "name": "entity_wings_shell_ObjectEffectDefinition001",
-          "filename": "data/hd/vfx/particles/character/enemy/firegolem/vfx_firegolem_objfx.particles"
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.5,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -0.5,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.5,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -0.5,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 1.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -1.0,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": 0.8,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.5,
-            "y": 0.5,
-            "z": 0.5
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    },
-    {
-      "type": "Entity",
-      "name": "entity_vfx",
-      "id": 2535351568,
-      "components": [
-        {
-          "type": "VfxDefinitionComponent",
-          "name": "entity_vfx_VfxDefinition",
-          "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
-          "hardKillOnDestroy": true
-        },
-        {
-          "type": "TransformDefinitionComponent",
-          "name": "entity_vfx_lights_TransformDefinition",
-          "position": {
-            "x": 0.0,
-            "y": 5.5,
-            "z": -1.0
-          },
-          "orientation": {
-            "x": 0.0,
-            "y": 0.0,
-            "z": -0.8,
-            "w": 1.0
-          },
-          "scale": {
-            "x": 0.5,
-            "y": 0.5,
-            "z": 0.5
-          },
-          "inheritOnlyPosition": false
-        }
-      ]
-    }
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": 0.5,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 1.0,
+        //                 "y": 1.0,
+        //                 "z": 1.0
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": -0.5,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 1.0,
+        //                 "y": 1.0,
+        //                 "z": 1.0
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": 0.5,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 1.0,
+        //                 "y": 1.0,
+        //                 "z": 1.0
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": -0.5,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 1.0,
+        //                 "y": 1.0,
+        //                 "z": 1.0
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": 1.0,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 1.0,
+        //                 "y": 1.0,
+        //                 "z": 1.0
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": -1.0,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 1.0,
+        //                 "y": 1.0,
+        //                 "z": 1.0
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": 0.8,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 0.5,
+        //                 "y": 0.5,
+        //                 "z": 0.5
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // },
+        // {
+        //     "type": "Entity",
+        //     "name": "entity_vfx",
+        //     "id": 2535351568,
+        //     "components": [
+        //         {
+        //             "type": "VfxDefinitionComponent",
+        //             "name": "entity_vfx_VfxDefinition",
+        //             "filename": "data/hd/vfx/particles/character/enemy/willowisp1/vfx_willowisp1_neutral.particles",
+        //             "hardKillOnDestroy": true
+        //         },
+        //         {
+        //             "type": "TransformDefinitionComponent",
+        //             "name": "entity_vfx_lights_TransformDefinition",
+        //             "position": {
+        //                 "x": 0.0,
+        //                 "y": 5.5,
+        //                 "z": -1.0
+        //             },
+        //             "orientation": {
+        //                 "x": 0.0,
+        //                 "y": 0.0,
+        //                 "z": -0.8,
+        //                 "w": 1.0
+        //             },
+        //             "scale": {
+        //                 "x": 0.5,
+        //                 "y": 0.5,
+        //                 "z": 0.5
+        //             },
+        //             "inheritOnlyPosition": false
+        //         }
+        //     ]
+        // }
     ]
 }
