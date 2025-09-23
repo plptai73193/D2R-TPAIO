@@ -1,40 +1,44 @@
 {
     "type": "SettingsPanel", "name": "ItemDictionaryCubeRecipeMainPanelEng",
     "fields": {
-        "priority": 9002,
+        "priority": 9003,
         "fitToParent": true
     },
     "children": [
         {
             "type": "RectangleWidget", "name": "Background",
             "fields": {
-                "fitToScreen": true,
-                "color": [ 0.0, 0.0, 0.0, 0.7 ]
+
+                "color": [ 0.0, 0.0, 0.0, 0.0 ]
             },
             "children": [
                 {
-                    "type": "ClickCatcherWidget", "name": "catcher",
+                    "type": "ClickCatcherWidget",
+                    "name": "catcher",
                     "fields": {
-                        "fitToParent": true
+                        "rect": "$DictionaryClickCatcherRect",
+                       
                     }
                 },
                 {
                     "type": "Widget", "name": "Anchor",
                     "fields": {
-                        "anchor": { "x": 0.5, "y": 0.5 },
-                        "rect": "$SettingsPanelAnchorRect"
+                        "anchor": "$DictionaryWidgetFieldsAnchor",
+                        "rect": "$DictionaryWidgetFieldsRect"
                     },
                     "children": [
                         {
-                            "type": "ImageWidget", "name": "Background",
+                            "type": "ImageWidget",
+                            "name": "Background",
                             "fields": {
+                                "rect": "$DictionaryBackgroundRect",
                                 "filename": "\\PANEL\\Options\\FrontEndOptionsBG"
                             }
                         },
                         {
                             "type": "TextBoxWidget", "name": "Title",
                             "fields": {
-                                "rect": { "x": 0, "y": 45, "width": 1950, "height": 103 },
+                                "rect": "$DictionaryTitleRect",
                                 "text": "Cube Recipes",
                                 "style": "$StyleTitleBlock"
                             }
@@ -42,7 +46,7 @@
                         {
                             "type": "ButtonWidget", "name": "CloseButton",
                             "fields": {
-                                "rect": { "x": 1868, "y": 8 },
+                                "rect": "$DictionaryCloseButtonRect",
                                 "filename": "PANEL\\closebtn_4x",
                                 "hoveredFrame": 3,
 								"onClickMessage": "PanelManager:ClosePanel:ItemDictionaryCubeRecipeMainPanelEng",
@@ -57,18 +61,18 @@
             ]
         },
         {
-            "type": "ImageWidget", "name": "SettingsBackground",
+            "type": "ImageWidget",
+            "name": "SettingsBackground",
             "fields": {
-                "rect": "$SettingsPanelBackgroundRect",
-                "anchor": { "x": 0.5 },
+                "rect": "$DictionarySettingsBackgroundRect",
                 "filename": "Controller/Panel/Options/Panel_Options_BG"
             }
         },
         {
             "type": "TabBarWidget", "name": "OptionsTabs",
             "fields": {
-                "rect": "$SettingsPanelTabsRect",
-                "anchor": { "x": 0.5 },
+                "rect": "$DictionaryTabBarRect",
+                "anchor": "$DictionaryTabBarAnchor",
                 "tabCount": 6,
                 "tabSize": { "x": 266, "y": 121 },
                 "tabPadding": { "x": 2, "y": 0 },
@@ -101,20 +105,44 @@
         {
             "type": "Widget", "name": "CenterSection", // Credit
             "fields": {
-                "anchor": { "x": 0.5, "y": 0.0 },
-                "rect": { "x": -1920, "y": 0 }
-            },
-            "children": [
-                {
-                    "type": "TextBoxWidget",
-                    "name": "HelpHealth",
-                    "fields": {
-                        "rect": "$DictionaryModCreditRect",
-                        "text": "$DictionaryModCreditText",
-                        "style": "$DictionaryModCreditStyle"
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0
+                },
+                "rect": {
+                    "x": -750,
+                    "y": 1800
+                },
+                "columns": [
+                    {
+                        "width": 500,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    },
+                    {
+                        "width": 500,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    },
+                    {
+                        "width": 500,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
                     }
+                ],
+                "rowHeight": 120,
+                "cellPadding": {
+                    "left": 0,
+                    "right": 0
                 }
-            ]
+            },
+            
         }
     ]
 }

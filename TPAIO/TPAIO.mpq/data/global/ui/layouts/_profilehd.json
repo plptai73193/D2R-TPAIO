@@ -225,8 +225,12 @@
         "b": 56,
         "a": 255
     },
-    "FontColorDarkRed": { "r": 200, "g": 20, "b": 0, "a": 255 },
-    
+    "FontColorDarkRed": {
+        "r": 200,
+        "g": 20,
+        "b": 0,
+        "a": 255
+    },
     "CarouselEnabledColor": "$FontColorLightGold",
     "CarouselDisabledColor": "$FontColorGray",
     "LightButtonTextColor": "$FontColorLightGold",
@@ -574,10 +578,10 @@
             12
         ],
         "inGameTargetPadding": [
-            7,
-            1,
-            7,
-            1
+            0,
+            0,
+            0,
+            0
         ],
         "drawBorder": 0,
         "centeredOnAnchor": 1,
@@ -1358,5 +1362,103 @@
             "v": "fit"
         }
     },
-    "DictionaryNormalItemRowHeight": 110
+    "DictionaryNormalItemRowHeight": 110,
+    "IvPanelRect": {
+        "x": -865,
+        "y": 300,
+        "width": "$OptionsPanelWidth",
+        "height": "$OptionsPanelHeight"
+    },
+    "DictionaryictiScrollViewAnchor": {
+        "x": 0.565,
+        "y": -0.02
+    },
+    "DictionaryOptionsScrollBarBackgroundAnchor": {
+        "x": 1.56,
+        "y": -0.02
+    },
+    "DictionaryClickCatcherRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1950,
+        "height": 2160
+    },
+    "DictionaryWidgetFieldsAnchor": {
+        "x": 0,
+        "y": 0
+    },
+    "DictionaryWidgetFieldsRect": {
+        "x": 0,
+        "y": -100
+    },
+    "DictionaryTitleRect": {
+        "x": 115,
+        "y": 147,
+        "width": 1728,
+        "height": 103
+    },
+    "DictionaryBackgroundRect": {
+        "x": 0,
+        "y": 100,
+        "scale": 1
+    },
+    "DictionarySettingsBackgroundRect": {
+        "x": 80,
+        "y": 145,
+        "width": "$OptionsPanelWidth",
+        "height": "$OptionsPanelHeight"
+    },
+    "DictionaryTabBarRect": {
+        "x": 94,
+        "y": 174,
+        "scale": 0.83,
+        "width": 2128,
+        "height": 121
+    },
+    "DictionaryTabBarAnchor": {
+        "x": 0,
+        "y": 0
+    },
+    "DictionaryFieldsConfig": {
+        "anchor": {
+            "x": 0.5,
+            "y": 0
+        },
+        "rect": {
+            "x": -750,
+            "y": 1800
+        },
+        "columns": [
+            {
+                "width": 500,
+                "alignment": {
+                    "h": "center",
+                    "v": "center"
+                }
+            },
+            {
+                "width": 500,
+                "alignment": {
+                    "h": "center",
+                    "v": "center"
+                }
+            },
+            {
+                "width": 500,
+                "alignment": {
+                    "h": "center",
+                    "v": "center"
+                }
+            }
+        ],
+        "rowHeight": 120,
+        "cellPadding": {
+            "left": 0,
+            "right": 0
+        }
+    },
+    "DictionaryCloseButtonRect": {
+        "x": 1875,
+        "y": 100
+    }
 }

@@ -152,7 +152,7 @@
                             "type": "Transform",
                             "name": "entity_root_OverrideAttachmentTransform_playerClassTransforms_Assassin",
                             "translation": {
-                                "x": 0.3,
+                                "x": 0,
                                 "y": -6.5,
                                 "z": 0.2
                             },
@@ -263,6 +263,57 @@
                         "x": 0.0,
                         "y": 0.0,
                         "z": 0.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_model-1",
+            "id": 1564831593,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_diadem",
+                    "filename": "data/hd/character/npc/tyrael1/Wing_Shell.model",
+                    "visibleLayers": 1073741824,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_wings_UnitPart",
+                    "part": "head",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ObjectEffectDefinitionComponent",
+                    "name": "entity_wings_ObjectEffectDefinition",
+                    "filename": "data/hd/vfx/particles/character/npc/tyrael1/vfx_tyrael_wings_shell.particles"
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_vfx_lights_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": -1.5,
+                        "z": -1.7
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0,
+                        "w": 0.13
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
                     },
                     "inheritOnlyPosition": false
                 }

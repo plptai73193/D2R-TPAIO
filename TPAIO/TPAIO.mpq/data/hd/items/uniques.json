@@ -1912,9 +1912,9 @@
   },
   {
     "arreats_face": {
-      "normal": "helmet/avenger_guard",
-      "uber": "helmet/avenger_guard",
-      "ultra": "helmet/avenger_guard"
+      "normal": "helmet/arreats_face",
+      "uber": "helmet/arreats_face",
+      "ultra": "helmet/arreats_face"
     }
   },
   {
@@ -2437,9 +2437,9 @@
   },
   {
     "halaberds_reign": {
-      "normal": "helmet/assault_helmet",
-      "uber": "helmet/assault_helmet",
-      "ultra": "helmet/assault_helmet"
+      "normal": "helmet/halaberds_reign",
+      "uber": "helmet/halaberds_reign",
+      "ultra": "helmet/halaberds_reign"
     }
   },
   {

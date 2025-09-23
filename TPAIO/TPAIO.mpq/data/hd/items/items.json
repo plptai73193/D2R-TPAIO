@@ -3236,17 +3236,17 @@
   },
   {
     "pk1": {
-      "asset": "key/mephisto_key"
+      "asset": "key/pk1_key"
     }
   },
   {
     "pk2": {
-      "asset": "key/mephisto_key"
+      "asset": "key/pk2_key"
     }
   },
   {
     "pk3": {
-      "asset": "key/mephisto_key"
+      "asset": "key/pk3_key"
     }
   },
   {

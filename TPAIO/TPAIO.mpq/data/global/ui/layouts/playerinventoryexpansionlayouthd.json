@@ -348,6 +348,184 @@
                 "filename": "PANEL/seonhee_hud5",
             }
         },
+
+
+
+        // Unique Armor/Others
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 100, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_gold",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionaryUniqueArmorMainPanelEng",
+                "tooltipString": "@dictTextUniqueArmors",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 30, "y": 90, "scale": 1.0 },
+                "filename": "PANEL/seonhee_hud7",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryUniqueArmorMainPanelEng",
+                "tooltipString": "@dictTextUniqueArmors",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
+
+
+        // Unique Weapons
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 200, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_gold",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionaryUniqueWeaponMainPanelEng",
+                "tooltipString": "@dictTextUniqueWeapons",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 30, "y": 190, "scale": 1.0 },
+                "filename": "PANEL/seonhee_hud8",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryUniqueWeaponMainPanelEng",
+                "tooltipString": "@dictTextUniqueWeapons",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
+
+
+        // Set items
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 300, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_green",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionarySetItemMainPanelEng",
+                "tooltipString": "@dictTextSetItems",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 40, "y": 290, "scale": 0.35 },
+                "filename": "PANEL/btn/penta",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionarySetItemMainPanelEng",
+                "tooltipString": "@dictTextSetItems",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
+
+
+        // Base Armor/Others
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 400, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_black",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionaryNormalArmorMainPanel",
+                "tooltipString": "@dictTextNormalArmors",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 30, "y": 390, "scale": 1.0 },
+                "filename": "PANEL/seonhee_hud7",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryNormalArmorMainPanel",
+                "tooltipString": "@dictTextNormalArmors",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
+
+
+        // Base Weapons
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 500, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_black",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionaryNormalWeaponMainPanel",
+                "tooltipString": "@dictTextNormalWeapons",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 30, "y": 490, "scale": 1.0 },
+                "filename": "PANEL/seonhee_hud8",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryNormalWeaponMainPanel",
+                "tooltipString": "@dictTextNormalWeapons",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
+
+
+        // Runewords
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 600, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_orange",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionaryRunewordMainPanelEng",
+                "tooltipString": "@dictTextRunewords",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 40, "y": 590, "scale": 0.35 },
+                "filename": "PANEL/btn/penta",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryRunewordMainPanelEng",
+                "tooltipString": "@dictTextRunewords",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
         // {
         //     "type": "ButtonWidget",
         //     "name": "hudStr7", //갑옷

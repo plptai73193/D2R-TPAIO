@@ -3,10 +3,8 @@
     "name": "ItemDictionaryUniqueWeaponPanelEng3",
     "fields": {
         "priority": 9003,
-        "rect": "$OptionsPanelRect",
-        "anchor": {
-            "x": 0.5
-        },
+        "rect": "$IvPanelRect",
+        "anchor": "$leftPanelAnchor",
         "applySettingsImmediately": false
     },
     "children": [
@@ -15,9 +13,7 @@
             "name": "ScrollBarBackground",
             "fields": {
                 "rect": "$OptionsScrollBarBackgroundRect",
-                "anchor": {
-                    "x": 1.0
-                },
+               "anchor": {"x": 1.56, "y": -0.02},
                 "filename": "PauseMenu\\VerticalScroll"
             },
             "children": [
@@ -42,7 +38,8 @@
         {
             "type": "ScrollViewWidget",
             "name": "ScrollView",
-            "fields": {
+             "fields": {
+                "anchor": { "x": 0.565, "y": -0.02 },
                 "fitToParent": true,
                 "scrollControllerName": "ScrollController"
             },

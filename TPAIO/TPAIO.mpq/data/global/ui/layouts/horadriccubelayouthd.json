@@ -48,8 +48,8 @@
         {
             "type": "ButtonWidget", "name": "convert",
             "fields": {
-                "anchor": { "x": -0.8809, "y": 0.8806}, 
-                "rect": { "x": 487, "y": -12 },  //변환버튼 위치조정
+                // "anchor": { "x": -0.8809, "y": 0.8806}, 
+                "rect": { "x": -1793, "y": 1320 },  //변환버튼 위치조정
                 "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
                 "tooltipString": "@strUiMenu2",
                 "hoveredFrame": 2,
@@ -59,9 +59,9 @@
         {
             "type": "ButtonWidget", "name": "close",
             "fields": {
-                "rect": { "x": -1630, "y": 1426 },  //닫기버튼 위치조정
+                "rect": { "x": -1630, "y": 780 },  //닫기버튼 위치조정
                 "filename": "PANEL\\closebtn_4x",
-                "hoveredFrame": 2,
+                "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",
                 "onClickMessage": "HoradricCubePanelMessage:Close",
@@ -76,7 +76,7 @@
                 "hoveredFrame": 3,
                 "tooltipString": "@dictTooltipCubeRecipes",
                 "sound": "cursor_close_window_hd",
-                "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryCubeRecipeMainPanelEng"
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryCubeRecipeMainPanelEng"
             }
         }
         /*{
