@@ -30,7 +30,7 @@ taunt	27						1	1				1	1																														taunt																			ba
 conviction	28					1																																					convictionfront	convictionback																		paladin_aura_purification											0
 convicted	29					1																1	1	1	1																		convictionfront	convictionback						skill_conviction																							0
 energyshield	30																																										energyshield																														0
-venomclaws	31																																																	poisonmindam					mele	cgrn																	0
+venomclaws	31																																															venom_enchant		poisonmindam					mele	cgrn																	0
 battleorders	32					1																																					battleorders					battleorderscast		maxmana																							0
 might	33					1							1																														aura_might_front	aura_might_back						damagepercent												paladin_aura_might											0
 prayer	34					1																																					aura_prayer_front	aura_prayer_back																		paladin_aura_prayer											0
