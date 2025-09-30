@@ -1,9 +1,9 @@
 {
     "type": "SkillSelectPanel", "name": "SkillSelect",
     "fields": {
-        "priority": 2,
-        "anchor": { "x": 0.5, "y": 1 },
-        "rect": { "y": -370 },
+"priority": 101,
+        "anchor": "$LeftPanelAnchor",
+        "rect": { "x": 1256, "y": 923 },
         "defaultWidget": "ButtonTemplate0",
         "displayGroups": [
             {
@@ -18,7 +18,7 @@
                     "@SkillCategoryPa1",
                     "@SkillCategoryBa1",
                     "@SkillCategoryDr1",
-                    "@SkillCategoryAs1",
+                    "@SkillCategoryAs1"
                 ],
                 "skillCategories": "class1"
             },
@@ -30,7 +30,7 @@
                     "@SkillCategoryPa2",
                     "@SkillCategoryBa2",
                     "@SkillCategoryDr2",
-                    "@SkillCategoryAs2",
+                    "@SkillCategoryAs2"
                 ],
                 "skillCategories": "class2"
             },
@@ -42,7 +42,7 @@
                     "@SkillCategoryPa3",
                     "@SkillCategoryBa3",
                     "@SkillCategoryDr3",
-                    "@SkillCategoryAs3",
+                    "@SkillCategoryAs3"
                 ],
                 "skillCategories": "class3"
             },
@@ -53,7 +53,7 @@
         "centerMirrorSkills": true,
         "centerMirrorGapWidth": 146,
         "skillPadding": { "x": 4, "y": 4 },
-        "titlePadding": { "top": 10, "bottom": 15 },
+        "titlePadding": { "top": 10, "bottom": 15 }
     },
     "children": [
         {
@@ -73,7 +73,7 @@
                                 "filename": "PANEL/SkillSelect/Selected",
                                 "frame": 1
                             }
-                        },
+                        }
                     ]
                 }
             ]
@@ -88,22 +88,22 @@
                     "type": "TextBoxWidget", "name": "HotkeyText",
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
-                        "style": "$SkillHotkeyTextStyle",
+                        "style": "$SkillHotkeyTextStyle"
                     }
                 },
                 {
                     "type": "TextBoxWidget", "name": "QuantityText",
                     "fields": {
                         "rect": "$SkillQuantityTextRect",
-                        "style": "$SkillQuantityTextStyle",
+                        "style": "$SkillQuantityTextStyle"
                     }
-                },
+                }
             ]
         },
         {
             "type": "TextBoxWidget", "name": "SkillBindText",
             "fields": {
-                "rect": { "x": 1390, "y": 212 },
+                "rect": { "x": -160, "y": 35 },
                 "fontType": "16pt",
                 "text": "@SkillSelectSkillBindingHelpText",
                 "style": {
@@ -113,9 +113,9 @@
                     "highlight": {
                         "endIndex": 200,
                         "backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 175 }
-                    },
+                    }
                 }
             }
-        },
+        }
     ]
 }
