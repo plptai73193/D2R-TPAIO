@@ -1,24 +1,14 @@
 {
-    "type": "SkillSelectPanel",
-    "name": "SkillSelect",
+    "type": "SkillSelectPanel", "name": "SkillSelect",
     "fields": {
-        "priority": 101,
-        "anchor": {
-            "x": 0.5,
-            "y": 1
-        },
-        "rect": {
-            "y": -320
-        },
+        "priority": 2,
+        "anchor": { "x": 0.5, "y": 1 },
+        "rect": { "y": -370 },
         "defaultWidget": "ButtonTemplate0",
         "displayGroups": [
             {
                 "name": "@SkillCategoryMisc",
-                "skillCategories": [
-                    "otherClass",
-                    "charged",
-                    "scroll"
-                ]
+                "skillCategories": [ "otherClass", "charged", "scroll"]
             },
             {
                 "classNames": [
@@ -62,39 +52,24 @@
         ],
         "centerMirrorSkills": true,
         "centerMirrorGapWidth": 146,
-        "skillPadding": {
-            "x": 4,
-            "y": 4
-        },
-        "titlePadding": {
-            "top": 10,
-            "bottom": 15
-        },
+        "skillPadding": { "x": 4, "y": 4 },
+        "titlePadding": { "top": 10, "bottom": 15 },
     },
     "children": [
         {
-            "type": "Widget",
-            "name": "SelectionTray",
+            "type": "Widget", "name": "SelectionTray",
             "fields": {
-                "rect": {
-                    "x": -500,
-                    "width": 1440,
-                    "height": 1000
-                }
+                "rect": { "x": -720, "width": 1440, "height": 1000 }
             },
             "children": [
                 {
-                    "type": "Widget",
-                    "name": "SelectionHighlight",
+                    "type": "Widget", "name": "SelectionHighlight",
                     "children": [
                         {
                             "type": "ImageWidget",
                             "name": "SelectionBorder",
                             "fields": {
-                                "rect": {
-                                    "x": -3,
-                                    "y": -4
-                                },
+                                "rect": { "x": -3, "y": -4 },
                                 "filename": "PANEL/SkillSelect/Selected",
                                 "frame": 1
                             }
@@ -104,23 +79,20 @@
             ]
         },
         {
-            "type": "SkillSelectButtonWidget",
-            "name": "ButtonTemplate",
+            "type": "SkillSelectButtonWidget", "name": "ButtonTemplate",
             "fields": {
                 "skillIconFilenames": "$SkillIconFilenames"
             },
             "children": [
                 {
-                    "type": "TextBoxWidget",
-                    "name": "HotkeyText",
+                    "type": "TextBoxWidget", "name": "HotkeyText",
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
                         "style": "$SkillHotkeyTextStyle",
                     }
                 },
                 {
-                    "type": "TextBoxWidget",
-                    "name": "QuantityText",
+                    "type": "TextBoxWidget", "name": "QuantityText",
                     "fields": {
                         "rect": "$SkillQuantityTextRect",
                         "style": "$SkillQuantityTextStyle",
@@ -129,31 +101,18 @@
             ]
         },
         {
-            "type": "TextBoxWidget",
-            "name": "SkillBindText",
+            "type": "TextBoxWidget", "name": "SkillBindText",
             "fields": {
-                "rect": {
-                    "x": 0,
-                    "y": 35
-                },
+                "rect": { "x": 1390, "y": 212 },
                 "fontType": "16pt",
                 "text": "@SkillSelectSkillBindingHelpText",
                 "style": {
                     "pointSize": "$XMediumLargeFontSize",
-                    "alignment": {
-                        "h": "center"
-                    },
-                    "options": {
-                        "pipeCharacterBehavior": "handle"
-                    },
+                    "alignment": { "h": "center" },
+                    "options": { "pipeCharacterBehavior": "handle" },
                     "highlight": {
                         "endIndex": 200,
-                        "backgroundColor": {
-                            "r": 0,
-                            "g": 0,
-                            "b": 0,
-                            "a": 175
-                        }
+                        "backgroundColor": { "r": 0, "g": 0, "b": 0, "a": 175 }
                     },
                 }
             }

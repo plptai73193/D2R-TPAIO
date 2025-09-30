@@ -3,14 +3,14 @@
     "fields": {
         "anchor": { "x": 0.5, "y": 1 },
         "rect": { "x": -1454, "y": -412, "width": 2952, "height": 764 },
-        "skillsOnRow": 6,
-        "priority": 100
+        "skillsOnRow": 8, // ���� ��ų ���� �����°�
+        "priority": -4
     },
     "children": [                
       {
             "type": "AttributeBallWidget", "name": "HealthBall",
             "fields": {
-                "rect": { "x": 609, "y": 81, "width": 331, "height": 333 },
+                "rect": { "x": 1269, "y": 63, "width": 348, "height": 350 },
                 "attribute": "health",
                 "minLiquidHeight": 2,
                 "maxSmoothingSeconds": 1.0,
@@ -22,52 +22,51 @@
             "children": [
                 {
                     "type": "AnimatedImageWidget", "name": "BallImage",
-                  "fields": {
-                    "rect": { "scale": 0.79 },
-                    "filename": "PANEL/HUD_D4_CENTER/HealthManaAnimation/HealthIdle/4k/globe_health_man_idle1",
-                    "fps": 24, 
-                    "useAdvancedColoring": true,
-                    "recolorRange": {
-                      "hue": [ 0.0, 1.01 ],
-                      "saturation": [ 0.0, 1.01 ],
-                      "value": [ 0.0, 1.01 ]
-                    },
-                    "hsvTransform": [ -0.3333, -0.05, -0.5, 0.0 ]
-                  }
+                    "fields": {
+                        "filename": "PANEL/HUD_CEN/HealthManaAnimation/HealthIdle/4k/globe_health_idle",
+                        "fps": 24, // To not be in sync with mana.
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [ 0.0, 1.01 ],
+                            "saturation": [ 0.0, 1.01 ],
+                            "value": [ 0.0, 1.01 ]
+                        },
+                       "hsvTransform": [ -0.3333, -0.05, -0.5, 0.0 ]
+                    }
                 },
                 {
                     "type": "ImageWidget", "name": "EdgeImage",
                     "fields": {
-                        "rect": { "x": 68,"y": 3, "scale": 0.79 },
-                        "filename": "PANEL/HUD_D4_CENTER/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point"
+                        "rect": { "y": 3, "scale": 2.0 },
+                        "filename": "PANEL/HUD_CEN/HealthManaAnimation/HotPoint/FrameSet1/globe_heal_point"
                     }
                 },
-                {
+             {
                     "type": "TextBoxWidget", "name": "ValueDisplay",
                     "fields": {
                         "anchor": { "x": 0.27 },
-                        "rect": { "x": 50, "y": 155 },
-                        "fontType": "15pt",
+                        "rect": { "x": 53, "y": 165 },
+                        "fontType": "16pt",
                         "style": {
                             "pointSize": "$XMediumLargeFontSize",
-                            "alignment": { "v": "bottom", "h": "center" },
+                            "alignment": { "v": "bottom", "h": "right" },
                             "spacing" : "$MinimumSpacing",
                             "dropShadow": "$DefaultDropShadow"
                         }
                     }
                 },
-               {
-                        "type": "ClickCatcherWidget", "name": "asdf",
-                        "fields": {
-                                "rect": { "x": 0, "y": 0, "width": 331, "height": 333 }
-                        }
+               {                                                                        //
+                        "type": "ClickCatcherWidget", "name": "asdf",                    // Ŭ�� ����
+                        "fields": {                                                      // ���� �߰�
+                                "rect": { "x": 0, "y": 0, "width": 348, "height": 350 } //
+                        }                                                                //
                 }
             ]
         },
         {
             "type": "AttributeBallWidget", "name": "ManaBall",
             "fields": {
-                "rect": { "x": 2007, "y": 81, "width": 331, "height": 333 },
+                "rect": { "x": 1270, "y": 63, "width": 348, "height": 350 },
                 "attribute": "mana",
                 "maxSmoothingSeconds": 1.0,
                 "jumpSmoothingSeconds": 0.25,
@@ -76,58 +75,57 @@
             "children": [
                 {
                     "type": "AnimatedImageWidget", "name": "BallImage",
-                  "fields": {
-                    "rect": { "scale": 0.79 },
-                    "filename": "PANEL/HUD_D4_CENTER/HealthManaAnimation/HealthIdle/4k/globe_health_man_idle1",
-                    "fps": 20,
-                    "useAdvancedColoring": true,
-                    "recolorRange": {
-                      "hue": [ 0.0, 1.01 ],
-                      "saturation": [ 0.0, 1.01 ],
-                      "value": [ 0.0, 1.01 ]
-                    },
-                    "hsvTransform": [ -0.4, 0, 0, 0.0 ]
-                  }
-                },
-                {
-                    "type": "ImageWidget", "name": "EdgeImage",
                     "fields": {
-                        "rect": { "x": 68, "y": 3, "scale": 0.79 },
-                        "filename": "PANEL/HUD_D4_CENTER/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point",
+                        "filename": "PANEL/HUD_CEN/HealthManaAnimation/HealthIdle/4k/globe_mana_idle",
+                        "fps": 20,
                         "useAdvancedColoring": true,
                         "recolorRange": {
                             "hue": [ 0.0, 1.01 ],
                             "saturation": [ 0.0, 1.01 ],
                             "value": [ 0.0, 1.01 ]
                         },
-                       "hsvTransform": [ -0.4, 0, 0, 1.0 ]
+                       "hsvTransform": [ -0.3333, -0.05, -0.05, 0.0 ]
+                    }
+                },
+                {
+                    "type": "ImageWidget", "name": "EdgeImage",
+                    "fields": {
+                        "rect": { "y": 3, "scale": 2.0 },
+                        "filename": "PANEL/HUD_CEN/HealthManaAnimation/HotPoint/FrameSet1/globe_mana_point",
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [ 0.0, 1.01 ],
+                            "saturation": [ 0.0, 1.01 ],
+                            "value": [ 0.0, 1.01 ]
+                        },
+                       "hsvTransform": [ -0.3333, -0.1, -0.00, 1.0 ]
                     }
                 },
                {
                     "type": "TextBoxWidget", "name": "ValueDisplay",
                     "fields": {
                         "anchor": { "x": 0.7 },
-                        "rect": { "x": -90, "y": 155 },
+                        "rect": { "x": -40, "y": 165 },
                         "style": {
                             "pointSize": "$XMediumLargeFontSize",
-                            "alignment": { "v": "bottom", "h": "center" },
+                            "alignment": { "v": "bottom", "h": "left" },
                             "spacing" : "$MinimumSpacing",
                             "dropShadow": "$DefaultDropShadow"
                         }
                     }
                 },
-                           {
-                        "type": "ClickCatcherWidget", "name": "asdf",
-                        "fields": {
-                                "rect": { "x": 0, "y": 0, "width": 331, "height": 333 }
-                        }
+                           {                                                                        //
+                        "type": "ClickCatcherWidget", "name": "asdf",                    // Ŭ�� ����
+                        "fields": {                                                      // ���� �߰�
+                                "rect": { "x": 0, "y": 0, "width": 348, "height": 350 } //
+                        }                                                                //
                 }
             ]
         },
         {
             "type": "SkillSelectButtonWidget", "name": "SkillBindTemplate",
             "fields": {
-                "rect": { "x": 2355, "y": 256, "scale": 0.8},
+                "rect": { "x": 519, "y": 185, "scale": 0.5}, // ���� ��ų
                 "side": "bind",
                 "skillIconFilenames": "$SkillIconFilenames"
             },
@@ -151,15 +149,15 @@
         {
             "type": "ImageWidget", "name": "Overlay",
             "fields": {
-                "filename": "PANEL/HUD_D4_CENTER/front_panel",
+                "filename": "PANEL/HUD_CEN/front_panel",
                 "rect": { "x": 34 }
             }
-        },        
+        },
         {
             "type": "ExpBarWidget", "name": "ExpBar",
             "fields": {
-                "rect": { "x": 1078, "y": 161 },
-                "filename": "PANEL/HUD_D4_CENTER/experience_bar",
+                "rect": { "x": 529, "y": 389 },
+                "filename": "PANEL/HUD_CEN/experience_bar",
                 "hitMargin": { "top": 20, "bottom": 15 }
             },
             "children": [
@@ -167,7 +165,7 @@
                     "type": "AnimatedImageWidget", "name": "ExpFlashLeft",
                     "fields": {
                         "rect": { "x": -5, "y": -7 },
-                        "filename": "blank",
+                        "filename": "PANEL/HUD_CEN/LevelAnimation/leftFlash",
                         "blendMode": "black",
                         "fps": 14,
                         "loop": false,
@@ -179,7 +177,7 @@
                     "type": "AnimatedImageWidget", "name": "ExpFlashRight",
                     "fields": {
                         "rect": { "x": 765, "y": -7 },
-                        "filename": "blank",
+                        "filename": "PANEL/HUD_CEN/LevelAnimation/rightFlash",
                         "blendMode": "black",
                         "fps": 14,
                         "loop": false,
@@ -190,95 +188,88 @@
             ]
         },
         {
-            "type": "ImageWidget", "name": "Expnum",
-            "fields": {
-                "filename": "PANEL/HUD_D4_CENTER/expnum",
-                "rect": { "x": 1136, "y": 160 }
-            }
-        },
-        {
             "type": "Widget", "name": "MiniMenu",
             "fields": {
-                "rect": { "x": 1592, "y": 313, "width": 500, "height": 70 }
+                "rect": { "x": 525, "y": 305, "width": 500, "height": 70 }
             },
             "children": [
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuCharacter",
                     "fields": {
                         "menu": "character",
-                        "filename": "PANEL/HUD_D4_CENTER/Character",
+                        "filename": "PANEL/HUD_CEN/Character",
                         "hoveredFrame": 2,
                         "statusUpdateNormalFrame": 3,
                         "statusUpdatePressedFrame": 4,
                         "statusUpdateHoveredFrame": 5,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": -766, "y": -283 }
+                        "rect": { "x": -2, "y": -6 }
                     }
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuInventory",
                     "fields": {
                         "menu": "inventory",
-                        "filename": "PANEL/HUD_D4_CENTER/Inventory",
+                        "filename": "PANEL/HUD_CEN/Inventory",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 352, "y": -288 }
+                        "rect": { "x": 212, "y": -6 }
                     }
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuSkillTree",
                     "fields": {
                         "menu": "skillTree",
-                        "filename": "PANEL/HUD_D4_CENTER/SkillTree",
+                        "filename": "PANEL/HUD_CEN/SkillTree",
                         "hoveredFrame": 2,
                         "statusUpdateNormalFrame": 3,
                         "statusUpdatePressedFrame": 4,
                         "statusUpdateHoveredFrame": 5,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 266, "y": -24 }
+                        "rect": { "x": 69, "y": -6 }
                     }
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuAutoMap",
                     "fields": {
                         "menu": "autoMap",
-                        "filename": "PANEL/HUD_D4_CENTER/AutoMap",
+                        "filename": "PANEL/HUD_CEN/AutoMap",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 282, "y": -239 }
+                        "rect": { "x": 282, "y": -6 }
                     }
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuParty",
                     "fields": {
                         "menu": "party",
-                        "filename": "PANEL/HUD_D4_CENTER/Messages",
+                        "filename": "PANEL/HUD_CEN/Messages",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": -742, "y": 7 }
+                        "rect": { "x": 352, "y": -6 }
                     }
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuQuestLog",
                     "fields": {
                         "menu": "questLog",
-                        "filename": "PANEL/HUD_D4_CENTER/QuestLog",
+                        "filename": "PANEL/HUD_CEN/QuestLog",
                         "hoveredFrame": 2,
                         "statusUpdateNormalFrame": 3,
                         "statusUpdatePressedFrame": 4,
                         "statusUpdateHoveredFrame": 5,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": -670, "y": -36 }
+                        "rect": { "x": 142, "y": -6 }
                     }
                 },
                 {
                     "type": "MiniMenuButtonWidget", "name": "MiniMenuPauseMenu",
                     "fields": {
                         "menu": "pauseMenu",
-                        "filename": "PANEL/HUD_D4_CENTER/PauseMenu",
+                        "filename": "PANEL/HUD_CEN/PauseMenu",
                         "hoveredFrame": 2,
                         "tooltipOffset": { "y": -30 },
-                        "rect": { "x": 369, "y": 7 }
+                        "rect": { "x": 422, "y": -6 }
                     }
                 }
             ]
@@ -286,9 +277,9 @@
         {
             "type": "RunButtonWidget", "name": "RunButton",
             "fields": {
-                "rect": { "x": 1020, "y": 128, "scale": 0.75 },
+                "rect": { "x": 536, "y": 259 },
                 "hitMargin": { "top": 5, "bottom": 5, "right": 15 },
-                "filename": "PANEL/HUD_D4_CENTER/Sprint",
+                "filename": "PANEL/HUD_CEN/Sprint",
                 "inactiveNormalFrame": 0,
                 "inactivePressedFrame": 1,
                 "inactiveHoveredFrame": 2,
@@ -300,8 +291,8 @@
         {
             "type": "StaminaBarWidget", "name": "StaminaBar",
             "fields": {
-                "rect": { "x": 1077, "y": 150 },
-                "filename": "PANEL/HUD_D4_CENTER/stamina_bar",
+                "rect": { "x": 584, "y": 269 },
+                "filename": "PANEL/HUD_CEN/stamina_bar",
                 "hitMargin": { "top": 20, "bottom": 15, "left": 0, "right": 15 },
                 "maxSmoothingSeconds": 1.0,
                 "jumpSmoothingSeconds": 0.25
@@ -310,7 +301,7 @@
         {
             "type": "SkillSelectButtonWidget", "name": "LeftSkillButton",
             "fields": {
-                "rect": { "x": 1581, "y": 210, "scale": 0.87 },
+                "rect": { "x": 1043, "y": 259, "scale": 0.87 },
                 "side": "left",
                 "skillIconFilenames": "$SkillIconFilenames"
             },
@@ -334,7 +325,7 @@
         {
             "type": "SkillSelectButtonWidget", "name": "RightSkillButton",
             "fields": {
-                "rect": { "x": 1707, "y": 210, "scale": 0.87  },
+                "rect": { "x": 1736, "y": 259, "scale": 0.87  },
                 "side": "right",
                 "skillIconFilenames": "$SkillIconFilenames"
             },
@@ -354,18 +345,39 @@
                     }
                 }
             ]
-        },   
+        },
+        {
+            "type": "ImageWidget", "name": "BeltPopupArrow",
+            "fields": {
+                "filename": "PANEL/HUD_CEN/Belt_UpArrow",
+                "rect": { "x": 1859, "y": 237 }
+            }
+        },
         {
             "type": "BeltWidget", "name": "Belt",
             "fields": {
-                "rect": { "x": 1054, "y": 183 },
-                "poppedRowFilename": "PANEL/HUD_D4_CENTER/belt_popped_row",
-                "cellOffsetInRow": { "x": 30, "y": 21 },
-                "itemOffsetInCell": { "y": 12 },
-                "cellPadding": { "x": 28, "y": 20 },
-                "cellSize": "$ItemCellSize",
-            "priority":"INT_MAX"
-            }
+                "rect": { "x": 1868, "y": 263 },
+                "poppedRowFilename": "PANEL/HUD_CEN/belt_popped_row",
+                "poppedCapFilename": "PANEL/HUD_CEN/belt_popped_cap",
+                "cellOffsetInRow": { "x": 12, "y": 6 },
+                "itemOffsetInCell": { "x": 1, "y": 1 },
+                "cellPadding": { "x": 27, "y": 15 },
+                "cellSize": "$ItemCellSize"
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "HotkeyLabelTemplate",
+                    "fields": {
+                        "text": "123",
+                        "rect": { "x": 2, "y": 60, "width": 130 },
+                        "style": {
+                            "pointSize": "$MediumFontSize",
+                            "fontColor": "$FontColorGoldYellow",
+                            "options": { "hideOverflow": true }
+                        }
+                    }
+                }
+            ]
         },
         {
             "type": "LevelUpButtonWidget", "name": "StatUp",
@@ -373,9 +385,9 @@
                 "type": "stats",
                 "labels": ["@strlvlup", "@strlvlup"],
                 "isFloating": true,
-                "rect": { "x": 465, "y": 15 },
-                "filename": "PANEL/HUD_D4_CENTER/quest_button",
-                "leftPanelOffset": {},
+                "rect": { "x": 519, "y": 0 },
+                "filename": "PANEL/HUD_CEN/quest_button",
+                "leftPanelOffset": { "x": 1080 },
                 "hoveredFrame": 3,
                 "disabledFrame": 2,
                 "disabledTint": { "a": 1 }
@@ -385,7 +397,7 @@
                     "type": "TextBoxWidget", "name": "Label",
                     "fields": {
                         "anchor": { "x": 0.5 },
-                        "rect": { "y": -3, "scale" : 0.6 },
+                        "rect": { "y": -3 },
                         "fontType": "16pt",
                         "style": {
                             "pointSize": "$XMediumLargeFontSize",
@@ -403,9 +415,9 @@
                 "type": "skills",
                 "labels": [ "@strnewskl", "@strnewskl" ],
                 "isFloating": true,
-                "rect": { "x": 2278, "y": 15 },
-                "filename": "PANEL/HUD_D4_CENTER/quest_button",
-                "rightPanelOffset": {},
+                "rect": { "x": 2238, "y": 0 },
+                "filename": "PANEL/HUD_CEN/quest_button",
+                "rightPanelOffset": { "x": -1080 },
                 "hoveredFrame": 3,
                 "disabledFrame": 2,
                 "disabledTint": { "a": 1 }
@@ -415,7 +427,7 @@
                     "type": "TextBoxWidget", "name": "Label",
                     "fields": {
                         "anchor": { "x": 0.5 },
-                        "rect": { "y": -3, "scale" : 0.6 },
+                        "rect": { "y": -3 },
                         "fontType": "16pt",
                         "style": {
                             "pointSize": "$XMediumLargeFontSize",
@@ -433,10 +445,10 @@
                 "type": "quests",
                 "labels": ["@CfgQuestLog", "@CfgQuestLog"],
                 "isFloating": true,
-                "rect": { "x": 465, "y": 15 },
-                "filename": "PANEL/HUD_D4_CENTER/quest_button",
-                "leftPanelOffset": {},
-                "newStatsButtonOverlapOffset": { "x": -10, "y": 250 },
+                "rect": { "x": 519, "y": 0 },
+                "filename": "PANEL/HUD_CEN/quest_button",
+                "leftPanelOffset": { "x": 1080 },
+                "newStatsButtonOverlapOffset": { "y": -210 },
                 "hoveredFrame": 3,
                 "disabledFrame": 2,
                 "disabledTint": { "a": 1 }
@@ -446,7 +458,7 @@
                     "type": "TextBoxWidget", "name": "Label",
                     "fields": {
                         "anchor": { "x": 0.5 },
-                        "rect": { "y": -3, "scale" : 0.6 },
+                        "rect": { "y": -3 },
                         "fontType": "16pt",
                         "style": {
                             "pointSize": "$XMediumLargeFontSize",
@@ -457,7 +469,7 @@
                     }
                 }
             ]
-        }/*,
+        },
         {
           "type": "ButtonWidget",
           "name": "hudStr16",
@@ -477,7 +489,7 @@
             "focusOnMouseOver": false,
             "sound": "select"
           }
-        }*/
+        }
     ]
 
 }

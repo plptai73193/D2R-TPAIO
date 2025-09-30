@@ -46,8 +46,8 @@
 					"type": "TransformDefinitionComponent",
 					"name": "entity_root_TransformDefinition",
 					"position": {
-                        "x": 142,
-                        "y": 95.8,
+                        "x": 167,
+                        "y": 102.3,
                        	"z": 144.2
                     },
 					"scale": {
