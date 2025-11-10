@@ -621,7 +621,7 @@
                         }
                     ],
                     "defaultAnimationName": "Walk"
-                },                
+                },
                 {
                     "type": "FidgetAnimationComponent",
                     "name": "entity_root_FidgetAnimation",
@@ -893,10 +893,10 @@
             ]
         },
         {
-			"type": "Entity",
-			"name": "entity_model",
-			"id": 2838222485,
-			"components": [
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 2838222485,
+            "components": [
                 {
                     "type": "TransformDefinitionComponent",
                     "name": "entity_root_TransformDefinition",
@@ -934,54 +934,54 @@
                     "floorModel": false,
                     "terrainBlendEnableYUpBlend": false,
                     "terrainBlendMode": 1
-                }    
-			]
-		},    
+                }
+            ]
+        },
         {
-			"type": "Entity",
-			"name": "entity_model",
-			"id": 2838222485,
-			"components": [
-				{
-					"type": "TransformDefinitionComponent",
-					"name": "entity_root_TransformDefinition",
-					"position": {
-						"x": 0.0,
-						"y": 0.0,
-						"z": 0.0
-					},
-					"orientation": {
-						"x": 0.0,
-						"y": 0.0,
-						"z": 0.0,
-						"w": 1.0
-					},
-					"scale": {
-						"x": 1.0,
-						"y": 1.0,
-						"z": 1.0
-					},
-					"inheritOnlyPosition": false
-				},
-				{
-					"type": "EntityAttachmentDefinitionComponent",
-					"name": "entity_spectralflames_EntityAttachmentDefinition",
-					"targetbone": "R_weapon_attach"
-				},
-				{
-					"type": "ModelDefinitionComponent",
-					"name": "component_model_assault",
+            "type": "Entity",
+            "name": "entity_model",
+            "id": 2838222485,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_spectralflames_EntityAttachmentDefinition",
+                    "targetbone": "R_weapon_attach"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_assault",
                     "filename": "data/hd/items/weapon/polearm/_monsters/hell_bovine_halberd/hell_bovine_halberd.model",
-					"visibleLayers": 33,
-					"lightMask": 19,
-					"shadowMask": 3,
-					"ghostShadows": false,
-					"floorModel": false,
-					"terrainBlendEnableYUpBlend": false,
-					"terrainBlendMode": 1
-				}
-			]
-		},                   
+                    "visibleLayers": 33,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
         {
             "type": "Entity",
             "name": "entity_head",
@@ -1448,6 +1448,40 @@
                     "floorModel": false,
                     "terrainBlendEnableYUpBlend": false,
                     "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1079187010,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/nickname/particles/name_5.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx4294962040_component_transform",
+                    "position": {
+                        "x": 0.0,
+                        "y": 10.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
                 }
             ]
         }

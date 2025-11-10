@@ -2,13 +2,20 @@
     "dependencies": {
         "particles": [
             {
+                "path": "data/hd/vfx/particles/overlays/sorceress/shiverarmor/fx_ice_shivern_armor.particles"
+            },
+            {
                 "path": "data/hd/vfx/item4/fx_skill_icons_050.particles"
             }
         ],
         "models": [],
         "skeletons": [],
         "animations": [],
-        "textures": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+            }
+        ],
         "physics": [],
         "json": [],
         "variantdata": [],
@@ -18,6 +25,19 @@
     "type": "OverlayDefinition",
     "name": "shiverarmor",
     "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3569689780,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "components_ice_shiverarmor",
+                    "filename": "data/hd/vfx/particles/overlays/sorceress/shiverarmor/fx_ice_shivern_armor.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
         {
             "type": "Entity",
             "name": "entity_root",

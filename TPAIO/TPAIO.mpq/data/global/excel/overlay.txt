@@ -293,4 +293,6 @@ tigerstrike3	290	expansion\tiger_Strike_C	100	32	common	0	1	0	0	0	0	0	0	8	0	3	0	
 cobrastrike1	291	expansion\Cobra_Strike_A	100	16	assassin	0	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0
 cobrastrike2	292	expansion\Cobra_Strike_B	100	16	assassin	0	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0
 cobrastrike3	293	expansion\Cobra_Strike_C	100	16	assassin	0	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0
-venom_enchant	296	expansion\venomclaws	100	17	assassin	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0
+enchant_icon	294	null	0	8	sorceress	0	1	0	0	0	0	0	0	8	0	3	0	0	255	255	255	1	0
+markbear	295	BloodRipple	100	15	druid	1	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0
+markwolf	296	expansion\painwormcurse	100	10	druid	1	1	0	0	0	0	0	0	8	0	3	0	0	0	0	0	1	0

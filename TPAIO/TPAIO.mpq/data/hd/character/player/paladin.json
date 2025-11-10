@@ -1519,6 +1519,42 @@
                 }
             ]
         },
+        {
+            "type": "Entity",
+            "name": "entity_holyshield",
+            "id": 3452340888,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "entity_holyshield_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/items/Paladin/holyshield/fx_holyshield.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "EntityAttachmentDefinitionComponent",
+                    "name": "entity_holyshield_EntityAttachmentDefinition",
+                    "targetbone": "shield_attach"
+                },
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_holyshield_UnitPart",
+                    "part": "shield",
+                    "variant": "hsh"
+                },
+                {
+                    "type": "ModelPlatformTierComponent",
+                    "name": "entity_holyshield_ModelPlatformTierComponent",
+                    "visibilityTier": 0,
+                    "shadowTier": 1
+                },
+                {
+                    "type": "EnableEquipmentAnimationLayerComponent",
+                    "name": "entity_holyshield_EnableEquipmentAnimationLayer",
+                    "equipmentLayerName": "ShieldEquipLayer",
+                    "defaultEnabledWeight": 1.0
+                }
+            ]
+        }
         // {
         //     "type": "Entity",
         //     "name": "entity_vfx",
