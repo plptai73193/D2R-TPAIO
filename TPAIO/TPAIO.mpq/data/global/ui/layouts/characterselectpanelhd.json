@@ -156,49 +156,62 @@
                         "rect": { "x": -75, "y": 40 },
                     },
                     "children": [
+                        // {
+                        //     "type": "ButtonWidget", "name": "face",
+                        //     "fields": {
+                        //         "rect": { "x": 170, "y": 1770 },
+                        //         "filename": "FrontEnd/HD/Final/face",
+                        //         "onClickMessage": "CharacterSelect:SelectAct:face",
+                        //         "hoveredFrame": 3,
+                        //         "disabledFrame": 2,
+                        //         "sound": "cursor_movement_hd",
+                        //     },
+                        // },
+                        // {
+                        //     "type": "ButtonWidget", "name": "body",
+                        //     "fields": {
+                        //         "rect": { "x": 330, "y": 1770 },
+                        //         "filename": "FrontEnd/HD/Final/body",
+                        //         "onClickMessage": "CharacterSelect:SelectAct:body",
+                        //         "hoveredFrame": 3,
+                        //         "disabledFrame": 2,
+                        //         "sound": "cursor_movement_hd",
+                        //     },
+                        // },
+                        // {
+                        //     "type": "ButtonWidget", "name": "fullbody",
+                        //     "fields": {
+                        //         "rect": { "x": 490, "y": 1770 },
+                        //         "filename": "FrontEnd/HD/Final/fullbody",
+                        //         "onClickMessage": "CharacterSelect:SelectAct:fullbody",
+                        //         "hoveredFrame": 3,
+                        //         "disabledFrame": 2,
+                        //         "sound": "cursor_movement_hd",
+                        //     },
+                        // },
+                        // {
+                        //     "type": "ButtonWidget", "name": "background",
+                        //     "fields": {
+                        //         "rect": { "x": 650, "y": 1770 },
+                        //         "filename": "FrontEnd/HD/Final/background",
+                        //         "onClickMessage": "CharacterSelect:SelectAct:background",
+                        //         "hoveredFrame": 3,
+                        //         "disabledFrame": 2,
+                        //         "sound": "cursor_movement_hd",
+                        //     },
+                        // },
                         {
-                            "type": "ButtonWidget", "name": "face",
+                            "type": "ButtonWidget", "name": "Cinematics",
                             "fields": {
-                                "rect": { "x": 170, "y": 1770 },
-                                "filename": "FrontEnd/HD/Final/face",
-                                "onClickMessage": "CharacterSelect:SelectAct:face",
+                                "rect": { "x": 240, "y": 1775 },
+                                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                                "textString": "@strGameCinematics",
+                                "onClickMessage": "FrontEndNavigation:ToCinematics",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
                                 "hoveredFrame": 3,
                                 "disabledFrame": 2,
-                                "sound": "cursor_movement_hd",
-                            },
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "body",
-                            "fields": {
-                                "rect": { "x": 330, "y": 1770 },
-                                "filename": "FrontEnd/HD/Final/body",
-                                "onClickMessage": "CharacterSelect:SelectAct:body",
-                                "hoveredFrame": 3,
-                                "disabledFrame": 2,
-                                "sound": "cursor_movement_hd",
-                            },
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "fullbody",
-                            "fields": {
-                                "rect": { "x": 490, "y": 1770 },
-                                "filename": "FrontEnd/HD/Final/fullbody",
-                                "onClickMessage": "CharacterSelect:SelectAct:fullbody",
-                                "hoveredFrame": 3,
-                                "disabledFrame": 2,
-                                "sound": "cursor_movement_hd",
-                            },
-                        },
-                        {
-                            "type": "ButtonWidget", "name": "background",
-                            "fields": {
-                                "rect": { "x": 650, "y": 1770 },
-                                "filename": "FrontEnd/HD/Final/background",
-                                "onClickMessage": "CharacterSelect:SelectAct:background",
-                                "hoveredFrame": 3,
-                                "disabledFrame": 2,
-                                "sound": "cursor_movement_hd",
-                            },
+                            }
                         },
                         {
                             "type": "ButtonWidget", "name": "DeleteCharacter",

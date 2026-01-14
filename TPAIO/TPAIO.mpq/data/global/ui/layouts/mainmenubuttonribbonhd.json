@@ -79,9 +79,9 @@
                 {
                     "type": "ButtonWidget", "name": "Normal",
                     "fields": {
-                        "rect": { "x": 100, "y": 510 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
-                        "textString": "@strCreateGameNormalText",
+                        "rect": { "x": 115, "y": 510 },
+                        "filename": "FrontEnd\\HD\\Final\\Normal",
+                        "tooltipString": "@strCreateGameNormalText",
                         "onClickMessage": "CharacterSelect:LoadCharacter:0",
                         "text/style": "$StyleFEButtonText",
                         "pointSize": "$ExtraLargeFontSize",
@@ -95,9 +95,9 @@
                 {
                     "type": "ButtonWidget", "name": "Nightmare",
                     "fields": {
-                        "rect": { "x": 100, "y": 665 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
-                        "textString": "@strCreateGameNightmareText",
+                        "rect": { "x": 315, "y": 510 },
+                        "filename": "FrontEnd\\HD\\Final\\Nightmare",
+                        "tooltipString": "@strCreateGameNightmareText",
                         "onClickMessage": "CharacterSelect:LoadCharacter:1",
                         "text/style": "$StyleFEButtonText",
                         "pointSize": "$ExtraLargeFontSize",
@@ -111,9 +111,9 @@
                 {
                     "type": "ButtonWidget", "name": "Hell",
                     "fields": {
-                        "rect": { "x": 100, "y": 820 },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
-                        "textString": "@strCreateGameHellText",
+                        "rect": { "x": 515, "y": 510 },
+                        "filename": "FrontEnd\\HD\\Final\\Hell",
+                        "tooltipString": "@strCreateGameHellText",
                         "onClickMessage": "CharacterSelect:LoadCharacter:2",
                         "text/style": "$StyleFEButtonText",
                         "pointSize": "$ExtraLargeFontSize",
@@ -127,7 +127,7 @@
                 {
                     "type": "ButtonWidget", "name": "SecondaryContextButton",
                     "fields": {
-                        "rect": { "x": 100, "y": 995 },
+                        "rect": { "x": 100, "y": 710 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
                         "textString": "@LobbyButton",
                         "onClickMessage": "FrontEndNavigation:ToLobby",
@@ -142,7 +142,7 @@
                 {
                     "type": "ButtonWidget", "name": "ChatOpenBtnz",
                     "fields": {
-                        "rect": { "x": 100, "y": 1150 },
+                        "rect": { "x": 100, "y": 865 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
                         "textString": "@LobbyCreateGame",
                         "onClickMessage": "PanelManager:OpenPanel:CreateGamePanel1",
@@ -157,7 +157,7 @@
                 {
                     "type": "ButtonWidget", "name": "GameJonierOpenz",
                     "fields": {
-                        "rect": { "x": 100, "y": 1305 },
+                        "rect": { "x": 100, "y": 1020 },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonLarge",
                         "textString": "@LobbyJoinGame",
                         "onClickMessage": "PanelManager:OpenPanel:JoinGamePanel1",
@@ -168,6 +168,146 @@
                         "disabledFrame": 2,
                         "sound": "cursor_launch_game_hd",
                     }
+                },
+                {
+                    "type": "ButtonWidget", "name": "face",
+                    "fields": {
+                        "rect": { "x": 134, "y": 1200 },
+                        "filename": "FrontEnd/HD/Final/face",
+                        "onClickMessage": "CharacterSelect:SelectAct:face",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "body",
+                    "fields": {
+                        "rect": { "x": 269, "y": 1200 },
+                        "filename": "FrontEnd/HD/Final/body",
+                        "onClickMessage": "CharacterSelect:SelectAct:body",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "fullbody",
+                    "fields": {
+                        "rect": { "x": 404, "y": 1200 },
+                        "filename": "FrontEnd/HD/Final/fullbody",
+                        "onClickMessage": "CharacterSelect:SelectAct:fullbody",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "background",
+                    "fields": {
+                        "rect": { "x": 539, "y": 1200 },
+                        "filename": "FrontEnd/HD/Final/background",
+                        "onClickMessage": "CharacterSelect:SelectAct:background",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },           
+                {
+                    "type": "ButtonWidget", "name": "rotatefake-52",
+                    "fields": {
+                        "rect": { "x": 133, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Back",
+                        "onClickMessage": "CharacterSelect:SelectAct:-52",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },       
+                {
+                    "type": "ButtonWidget", "name": "rotatefake-16",
+                    "fields": {
+                        "rect": { "x": 193, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Left3",
+                        "onClickMessage": "CharacterSelect:SelectAct:-16",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },  
+                {
+                    "type": "ButtonWidget", "name": "rotatefake20",
+                    "fields": {
+                        "rect": { "x": 253, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Left2",
+                        "onClickMessage": "CharacterSelect:SelectAct:20",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake56",
+                    "fields": {
+                        "rect": { "x": 313, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Left1",
+                        "onClickMessage": "CharacterSelect:SelectAct:56",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake92",
+                    "fields": {
+                        "rect": { "x": 373, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Front",
+                        "onClickMessage": "CharacterSelect:SelectAct:92",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake-88",
+                    "fields": {
+                        "rect": { "x": 373, "y": 1392 },
+                        "filename": "FrontEnd/HD/Final/Back",
+                        "onClickMessage": "CharacterSelect:SelectAct:-88",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake128",
+                    "fields": {
+                        "rect": { "x": 433, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Right1",
+                        "onClickMessage": "CharacterSelect:SelectAct:128",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake164",
+                    "fields": {
+                        "rect": { "x": 493, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Right2",
+                        "onClickMessage": "CharacterSelect:SelectAct:164",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake200",
+                    "fields": {
+                        "rect": { "x": 553, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Right3",
+                        "onClickMessage": "CharacterSelect:SelectAct:200",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
+                },
+                {
+                    "type": "ButtonWidget", "name": "rotatefake236",
+                    "fields": {
+                        "rect": { "x": 613, "y": 1340 },
+                        "filename": "FrontEnd/HD/Final/Back",
+                        "onClickMessage": "CharacterSelect:SelectAct:236",
+                        "hoveredFrame": 3,
+                        "disabledFrame": 2,
+                    },
                 },
             ]
         },

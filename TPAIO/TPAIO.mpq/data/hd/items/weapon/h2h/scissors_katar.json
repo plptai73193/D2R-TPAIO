@@ -121,7 +121,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
                     "hardKillOnDestroy": true,
                     "hideAllMeshWhenInOpenedMode": true,
                     "visibleLayers": 1,
@@ -177,7 +177,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
                     "hardKillOnDestroy": true,
                     "hideAllMeshWhenInOpenedMode": true,
                     "visibleLayers": 1,
@@ -233,7 +233,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
                     "hardKillOnDestroy": true,
                     "hideAllMeshWhenInOpenedMode": true,
                     "visibleLayers": 1,
@@ -289,7 +289,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
                     "hardKillOnDestroy": true,
                     "hideAllMeshWhenInOpenedMode": true,
                     "visibleLayers": 1,
@@ -345,7 +345,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
                     "hardKillOnDestroy": true,
                     "hideAllMeshWhenInOpenedMode": true,
                     "visibleLayers": 1,
@@ -401,7 +401,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "filename": "data/hd/vfx/particles/objects/waypoint_portals/Waypoint_Fire/vfx_waypoint_Fire.particles",
                     "hardKillOnDestroy": true,
                     "hideAllMeshWhenInOpenedMode": true,
                     "visibleLayers": 1,

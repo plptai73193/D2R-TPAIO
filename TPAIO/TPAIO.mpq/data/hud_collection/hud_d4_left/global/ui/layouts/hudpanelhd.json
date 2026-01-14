@@ -78,15 +78,15 @@
                     "type": "AnimatedImageWidget", "name": "BallImage",
                   "fields": {
                     "rect": { "scale": 0.79 },
-                    "filename": "PANEL/HUD_02/HealthManaAnimation/HealthIdle/4k/globe_health_man_idle1",
+                    "filename": "PANEL/HUD_02/HealthManaAnimation/HealthIdle/4k/globe_mana_man_idle",
                     "fps": 20,
                     "useAdvancedColoring": true,
                     "recolorRange": {
-                      "hue": [ 0.0, 1.01 ],
-                      "saturation": [ 0.0, 1.01 ],
-                      "value": [ 0.0, 1.01 ]
-                    },
-                    "hsvTransform": [ -0.4, 0, 0, 0.0 ]
+                            "hue": [ 0.0, 1.01 ],
+                            "saturation": [ 0.0, 0.0 ],
+                            "value": [ 0.0, 0.0 ]
+                        },
+                    "hsvTransform": [ 0.3, 0.0, 0.0, 0.0 ],
                   }
                 },
                 {

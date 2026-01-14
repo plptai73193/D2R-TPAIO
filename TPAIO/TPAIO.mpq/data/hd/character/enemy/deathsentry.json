@@ -1,0 +1,411 @@
+{
+	"dependencies": {
+		"particles": [],
+		"models": [{
+			"path": "data/hd/character/enemy/deathsentry/torso.model"
+		}],
+		"skeletons": [{
+			"path": "data/hd/character/enemy/deathsentry/skeleton/deathsentry.skeleton"
+		}],
+		"animations": [],
+		"textures": [{
+			"path": "data/hd/character/common/common_ktint.texture"
+		}, {
+			"path": "data/hd/character/enemy/deathsentry/textures/deathsentry_alb.texture"
+		}, {
+			"path": "data/hd/character/enemy/deathsentry/textures/deathsentry_nrm.texture"
+		}, {
+			"path": "data/hd/character/enemy/deathsentry/textures/deathsentry_orm.texture"
+		}],
+		"physics": [],
+		"json": [{
+			"path": "data/hd/character/enemy/deathsentry/deathsentry_state_machine.json"
+		}, {
+			"path": "data/hd/overlays/common/death_sentry.json"
+		}],
+		"variantdata": [{
+			"path": "data/hd/character/enemy/deathsentry/deathsentry_variant.json"
+		}],
+		"objecteffects": [],
+		"other": []
+	},
+	"type": "UnitDefinition",
+	"name": "deathsentry",
+	"entities": [{
+		"type": "Entity",
+		"name": "entity_root",
+		"id": 4061304772,
+		"components": [{
+			"type": "UnitRootComponent",
+			"name": "component_root",
+			"state_machine_filename": "data/hd/character/enemy/deathsentry/deathsentry_state_machine.json",
+			"doNotInheritRotation": true,
+			"rotationOverride": {
+				"x": 0.0,
+				"y": 0.3826834,
+				"z": 0.0,
+				"w": 0.9238795
+			},
+			"doNotUseHDHeight": false,
+			"hideAllMeshWhenInOpenedMode": false,
+			"onCreateEventName": "",
+			"animations": []
+		}, {
+			"type": "SkeletonDefinitionComponent",
+			"name": "component_skeleton",
+			"filename": "data/hd/character/enemy/deathsentry/skeleton/deathsentry.skeleton"
+		}, {
+			"type": "VariantDefinitionComponent",
+			"name": "component_variant",
+			"filename": "data/hd/character/enemy/deathsentry/deathsentry_variant.json"
+		}, {
+			"type": "DefinitionPreloadComponent",
+			"name": "Root_DefinitionPreloadComponent",
+			"missiles": [],
+			"overlays": [{
+				"type": "OverlayDefinitionListEntry",
+				"name": "Root_OverlayDefinitionList_Entry1",
+				"filename": "data/hd/overlays/common/death_sentry.json"
+			}],
+			"minions": []
+		}, {
+			"type": "TransformDefinitionComponent",
+			"name": "entity_root_TransformDefinition",
+			"position": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			},
+			"orientation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0,
+				"w": 1.0
+			},
+			"scale": {
+				"x": 1.3,
+				"y": 1.3,
+				"z": 1.3
+			},
+			"inheritOnlyPosition": false
+		}]
+	}, {
+		"type": "Entity",
+		"name": "entity_torso",
+		"id": 315426896,
+		"components": [{
+			"type": "UnitPartComponent",
+			"name": "component_part_torso",
+			"part": "torso",
+			"variant": "lit"
+		}, {
+			"type": "ModelDefinitionComponent",
+			"name": "component_model_torso",
+			"filename": "data/hd/character/enemy/deathsentry/torso.model",
+			"visibleLayers": 1,
+			"lightMask": 19,
+			"shadowMask": 3,
+			"ghostShadows": false,
+			"floorModel": false,
+			"terrainBlendEnableYUpBlend": false,
+			"terrainBlendMode": 1
+		                }
+                         ]
+	},
+//   멀티글림 제거 ★
+/*    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 1366704500,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "entity_root_VfxDefinition",
+          "filename": "data/hd/vfx/particles/overlays/objects/multigleam/FX_MultiGleam.particles",
+          "hardKillOnDestroy": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_spotlight",
+      "id": 2353308128,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "entity_torso_TransformDefinition",
+          "position": {
+            "x": -0.7,
+            "y": 35.0,
+            "z": 0.0
+          },
+          "orientation": {
+            "x": 0.707106769,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "SpotLightDefinitionComponent",
+          "name": "spotlight_Entity_SpotLightDefinition",
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "power": 100.0,
+          "angle": 20.0,
+          "distance": 80.0,
+          "attenuation": 5.0,
+          "shadowCaster": false,
+          "lightMask": 1,
+          "isLocalLight": false,
+          "diffuseContribution": 1.0,
+          "specularContribution": 0.5
+        }
+      ]
+    },   */
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                "type": "VfxDefinitionComponent",
+                "name": "entity_root_VfxDefinition",
+                "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius":19,
+                    "terrainBlendMode": 1
+            }, {
+                "type": "TransformDefinitionComponent",
+                "name": "TransformDefinitionComponent002",
+                "position": {
+                    "x": 0.4,
+                    "y": -0.15,
+                    "z": 0.4
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                "type": "VfxDefinitionComponent",
+                "name": "entity_root_VfxDefinition",
+                "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius":19,
+                    "terrainBlendMode": 1
+            }, {
+                "type": "TransformDefinitionComponent",
+                "name": "TransformDefinitionComponent002",
+                "position": {
+                    "x": -0.1,
+                    "y": -0.15,
+                    "z": 0.5
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1437479437,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "entity_bottomWings_UnitPart",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                "type": "VfxDefinitionComponent",
+                "name": "entity_root_VfxDefinition",
+                "filename": "data/hd/vfx/particles/objects/braziers/rogue_torch_1/vfx_roguetorch1_neutral.particles",
+                    "hardKillOnDestroy": true,
+                    "hideAllMeshWhenInOpenedMode": true,
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": true,
+                    "floorModel": true,
+                    "terrainBlendEnableYUpBlend": true,
+                    "power": -150.0,
+                    "radius":19,
+                    "terrainBlendMode": 1
+            }, {
+                "type": "TransformDefinitionComponent",
+                "name": "TransformDefinitionComponent002",
+                "position": {
+                    "x": -0.4,
+                    "y": -0.15,
+                    "z": 0.4
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                "inheritOnlyPosition": false
+                }
+            ]
+        },
+//   상단 연기, 리버브 이펙트 ★
+        {
+		"type": "Entity",
+		"name": "entity_vfx",
+		"id": 3235982752,
+		"components": [
+			{
+				"type": "TransformDefinitionComponent",
+				"name": "entity_vfx_TransformDefinition",
+				"position": {
+					"x": 0.1,
+					"y": 1.5,
+					"z": 0.0
+				},
+				"orientation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0,
+					"w": 1.0
+				},
+				"scale": {
+					"x": 1.5,
+					"y": 1.5,
+					"z": 1.5
+				},
+				"inheritOnlyPosition": false
+			},
+			{
+				"type": "VfxDefinitionComponent",
+				"name": "entity_vfx_VfxDefinition",
+				"filename": "data/hd/vfx/particles/character/player/necromancer/fx_necromancer_fe_spectralflames_loop.particles",
+				"hardKillOnDestroy": false
+		
+		}
+                   ]
+	},
+        {
+            "type": "Entity",
+            "name": "entity_vfx1",
+            "id": 1078073875,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx1",
+                    "filename": "data/hd/vfx/particles/missiles/revive/revive.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": -0.5,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}

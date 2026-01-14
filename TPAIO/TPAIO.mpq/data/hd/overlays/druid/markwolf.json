@@ -74,8 +74,8 @@
                     "type": "TransformDefinitionComponent",
                     "name": "tf",
                     "position": {
-						"x": 135,
-						"y": 93,
+						"x": 105,
+						"y": 81,
 						"z": 144.2
 					},
                     "orientation": {

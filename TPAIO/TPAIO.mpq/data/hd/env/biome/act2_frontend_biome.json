@@ -78,22 +78,22 @@
                 "path": "data/hd/env/tilemasks/tile_masks.json"
             },
             {
-                "path": "data/hd/env/vis/ui_frontend_special.json"
+                "path": "data/hd/env/vis/ui_frontend_act1_vignette.json"
             },
             {
-                "path": "data/hd/env/vis/ui_frontend_special.json"
+                "path": "data/hd/env/vis/ui_frontend_act1_vignette.json"
             },
             {
-                "path": "data/hd/env/vis/ui_frontend_special.json"
+                "path": "data/hd/env/vis/ui_frontend_act1_vignette.json"
             },
             {
-                "path": "data/hd/env/vis/ui_frontend_special.json"
+                "path": "data/hd/env/vis/ui_frontend_act1_vignette.json"
             },
             {
-                "path": "data/hd/env/vis/ui_frontend_special.json"
+                "path": "data/hd/env/vis/ui_frontend_act1_vignette.json"
             },
             {
-                "path": "data/hd/env/vis/ui_frontend_special.json"
+                "path": "data/hd/env/vis/ui_frontend_act1_vignette.json"
             }
         ],
         "variantdata": [],
@@ -110,32 +110,32 @@
         {
             "type": "BiomeVisualDataFile",
             "name": "BiomeVisualDataFile1",
-            "visualDataFilename": "data/hd/env/vis/ui_frontend_special.json"
+            "visualDataFilename": "data/hd/env/vis/ui_frontend_act1_vignette.json"
         },
         {
             "type": "BiomeVisualDataFile",
             "name": "BiomeVisualDataFile2",
-            "visualDataFilename": "data/hd/env/vis/ui_frontend_special.json"
+            "visualDataFilename": "data/hd/env/vis/ui_frontend_act1_vignette.json"
         },
         {
             "type": "BiomeVisualDataFile",
             "name": "BiomeVisualDataFile3",
-            "visualDataFilename": "data/hd/env/vis/ui_frontend_special.json"
+            "visualDataFilename": "data/hd/env/vis/ui_frontend_act1_vignette.json"
         },
         {
             "type": "BiomeVisualDataFile",
             "name": "BiomeVisualDataFile4",
-            "visualDataFilename": "data/hd/env/vis/ui_frontend_special.json"
+            "visualDataFilename": "data/hd/env/vis/ui_frontend_act1_vignette.json"
         },
         {
             "type": "BiomeVisualDataFile",
             "name": "BiomeVisualDataFile5",
-            "visualDataFilename": "data/hd/env/vis/ui_frontend_special.json"
+            "visualDataFilename": "data/hd/env/vis/ui_frontend_act1_vignette.json"
         },
         {
             "type": "BiomeVisualDataFile",
             "name": "BiomeVisualDataFile6",
-            "visualDataFilename": "data/hd/env/vis/ui_frontend_special.json"
+            "visualDataFilename": "data/hd/env/vis/ui_frontend_act1_vignette.json"
         }
     ],
     "iblSettings": {
