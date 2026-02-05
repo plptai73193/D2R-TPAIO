@@ -1,0 +1,16 @@
+{
+    "type": "Panel", "name": "autominimapbackground",
+    "fields": {
+        "priority": -101,
+        "anchor": { "x": 0.0, "y": 0.0 }
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "minimapbackground",
+            "fields": {
+                "filename": "FrontEnd\\HD\\Final\\Mapbackground",
+                "rect": { "x": 3039, "y": 12 }
+            }
+        }
+    ]
+}

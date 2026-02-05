@@ -1890,7 +1890,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Blackhorn's Face \n@xh9\n\n@dictBlue Adds 6-22 cold damage\n6-8% Mana stolen per hit @dictVariable\n@dictBlue 6-8% Life stolen per hit @dictVariable\n@dictBlue +100% Enhanced Defense\n15% Slower Stamina Drain\nPhysical Damage Received Reduced by 15-20% @dictVariable\n@dictBlue Magic Damage Reduced by 10-15 @dictVariable",
+                                                "tooltipString": "@dictGold Blackhorn's Face \n@xsk\n\n@dictBlue Prevent Monster Heal\nSlows Target by 20%\n+180-220% Enhanced Defense @dictVariable\n@dictBlue Lightning Resist +15%\n+20 Lightning Absorb\nAttacker Takes Lightning Damage of 25",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -1903,29 +1903,29 @@
                                                 "useAdvancedColoring": true,
                                                 "recolorRange": {
                                                     "hue": [
-                                                        0,
-                                                        0.5
+                                                        0.0,
+                                                        0.501
                                                     ],
                                                     "saturation": [
-                                                        0.63,
-                                                        0.37
+                                                        0.14,
+                                                        0.14
                                                     ],
                                                     "value": [
-                                                        0,
-                                                        0.5
+                                                        0.425,
+                                                        0.54
                                                     ]
                                                 },
                                                 "hsvTransform": [
-                                                    0.25,
-                                                    1.0,
-                                                    0.3,
+                                                    0.0,
+                                                    -0.65,
+                                                    -0.65,
                                                     0.0
                                                 ],
                                                 "tintTransform": [
                                                     0.0,
-                                                    1.0,
                                                     0.0,
-                                                    0.3
+                                                    0.0,
+                                                    0.0
                                                 ]
                                             }
                                         }
@@ -2054,7 +2054,7 @@
                                             "name": "customitembgimg",
                                             "fields": {
                                                 "filename": "itemDictionary/grid_2x2",
-                                                "tooltipString": "@dictGold Vampire Gaze \n@xsk\n\n@dictBlue Prevent Monster Heal\nSlows Target by 20%\n+180-220% Enhanced Defense @dictVariable\n@dictBlue Lightning Resist +15%\n+20 Lightning Absorb\nAttacker Takes Lightning Damage of 25",
+                                                "tooltipString": "@dictGold Vampire Gaze \n@xh9\n\n@dictBlue Adds 6-22 cold damage\n6-8% Mana stolen per hit @dictVariable\n@dictBlue 6-8% Life stolen per hit @dictVariable\n@dictBlue +100% Enhanced Defense\n15% Slower Stamina Drain\nPhysical Damage Received Reduced by 15-20% @dictVariable\n@dictBlue Magic Damage Reduced by 10-15 @dictVariable",
                                                 "pressedFrame": 0
                                             }
                                         },
@@ -2063,33 +2063,33 @@
                                             "name": "GammaCalibration",
                                             "fields": {
                                                 "rect": "$StyleDictionaryDefaultImageRect",
-                                                "filename": "items/armor/helmet/mask",
+                                                "filename": "items/armor/helmet/bone_helm",
                                                 "useAdvancedColoring": true,
                                                 "recolorRange": {
                                                     "hue": [
-                                                        0.0,
-                                                        0.501
+                                                        0,
+                                                        0.5
                                                     ],
                                                     "saturation": [
-                                                        0.14,
-                                                        0.14
+                                                        0.63,
+                                                        0.37
                                                     ],
                                                     "value": [
-                                                        0.425,
-                                                        0.54
+                                                        0,
+                                                        0.5
                                                     ]
                                                 },
                                                 "hsvTransform": [
-                                                    0.0,
-                                                    -0.65,
-                                                    -0.65,
+                                                    0.25,
+                                                    1.0,
+                                                    0.3,
                                                     0.0
                                                 ],
                                                 "tintTransform": [
                                                     0.0,
+                                                    1.0,
                                                     0.0,
-                                                    0.0,
-                                                    0.0
+                                                    0.3
                                                 ]
                                             }
                                         }

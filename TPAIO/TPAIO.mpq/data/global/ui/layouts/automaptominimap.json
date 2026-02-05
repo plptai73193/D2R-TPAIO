@@ -1,0 +1,20 @@
+{
+    "type": "Panel", "name": "automaptominimap",
+    "fields": {},
+    "children": [
+        {
+            "type": "TimerWidget", "name": "automaptominimaptimer1",
+            "fields": {
+                "time": 0,
+                "message": "PanelManager:UnloadPanel:AutoMap"
+            }
+        },
+        {
+            "type": "TimerWidget", "name": "automaptominimaptimer2",
+            "fields": {
+                "time": 0.05,
+                "message": "PanelManager:ClosePanel:automaptominimap"
+            }
+        }
+    ]
+}

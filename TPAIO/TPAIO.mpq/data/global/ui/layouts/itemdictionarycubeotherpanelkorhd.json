@@ -220,7 +220,7 @@
                                                     "x": 311,
                                                     "y": 49
                                                 },
-                                                "filename": "items/misc/key/mephisto_key",
+                                                "filename": "items/misc/key/mephisto_key2",
                                                 "tooltipString": "@pk2",
                                                 "pressedFrame": 0
                                             }
@@ -244,7 +244,7 @@
                                                     "x": 586,
                                                     "y": 49
                                                 },
-                                                "filename": "items/misc/key/mephisto_key",
+                                                "filename": "items/misc/key/mephisto_key3",
                                                 "tooltipString": "@pk3",
                                                 "pressedFrame": 0
                                             }

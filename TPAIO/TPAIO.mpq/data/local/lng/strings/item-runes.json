@@ -1,8 +1,8 @@
-﻿[
+[
   {
     "id": 10902,
     "Key": "r16",
-    "enUS": "Io Rune",
+    "enUS": "Io Rune ÿc9(ÿc316ÿc9)",
     "zhTW": "符文：埃歐",
     "deDE": "[fs]Io-Rune",
     "esES": "Runa Io",
@@ -36,7 +36,7 @@
   {
     "id": 10904,
     "Key": "r13",
-    "enUS": "Shael Rune",
+    "enUS": "Shael Rune ÿc9(ÿc313ÿc9)",
     "zhTW": "符文：夏",
     "deDE": "[fs]Shael-Rune",
     "esES": "Runa Shael",
@@ -47,7 +47,7 @@
     "esMX": "Runa Shael",
     "jaJP": "シャエル・ルーン",
     "ptBR": "Runa Shael",
-    "ruRU": "Руна Шаэл",
+    "ruRU": "Руна Шаэль",
     "zhCN": "沙伊符文"
   },
   {
@@ -70,13 +70,13 @@
   {
     "id": 10906,
     "Key": "r31",
-    "enUS": "\n~         Jah Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUJah Rune ÿc9(ÿc131ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：喬",
     "deDE": "[fs]Jah-Rune",
     "esES": "Runa Jah",
     "frFR": "[fs]Rune Jah",
     "itIT": "[fs]Runa Jah",
-    "koKR": "\n~         자 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "자 룬",
     "plPL": "Runa Jah",
     "esMX": "Runa Jah",
     "jaJP": "ジャー・ルーン",
@@ -121,13 +121,13 @@
   {
     "id": 20440,
     "Key": "r33",
-    "enUS": "\n~         Zod Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUZod Rune ÿc9(ÿc133ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：薩德",
     "deDE": "[fs]Zod-Rune",
     "esES": "Runa Zod",
     "frFR": "[fs]Rune Zod",
     "itIT": "[fs]Runa Zod",
-    "koKR": "\n~         조드 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "조드 룬",
     "plPL": "Runa Zod",
     "esMX": "Runa Zod",
     "jaJP": "ゾッド・ルーン",
@@ -138,13 +138,13 @@
   {
     "id": 20441,
     "Key": "r32",
-    "enUS": "\n~         Cham Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUCham Rune ÿc9(ÿc132ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：查姆",
     "deDE": "[fs]Cham-Rune",
     "esES": "Runa Cham",
     "frFR": "[fs]Rune Cham",
     "itIT": "[fs]Runa Cham",
-    "koKR": "\n~         참 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "참 룬",
     "plPL": "Runa Cham",
     "esMX": "Runa Cham",
     "jaJP": "チャム・ルーン",
@@ -155,13 +155,13 @@
   {
     "id": 20443,
     "Key": "r30",
-    "enUS": "\n~         Ber Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUBer Rune ÿc9(ÿc130ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：貝",
     "deDE": "[fs]Ber-Rune",
     "esES": "Runa Ber",
     "frFR": "[fs]Rune Ber",
     "itIT": "[fs]Runa Ber",
-    "koKR": "\n~         베르 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "베르 룬",
     "plPL": "Runa Ber",
     "esMX": "Runa Ber",
     "jaJP": "バー・ルーン",
@@ -172,13 +172,13 @@
   {
     "id": 20444,
     "Key": "r29",
-    "enUS": "\n~         Sur Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUSur Rune ÿc9(ÿc129ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：瑟",
     "deDE": "[fs]Sur-Rune",
     "esES": "Runa Sur",
     "frFR": "[fs]Rune Sur",
     "itIT": "[fs]Runa Sur",
-    "koKR": "\n~         수르 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "수르 룬",
     "plPL": "Runa Sur",
     "esMX": "Runa Sur",
     "jaJP": "サー・ルーン",
@@ -189,13 +189,13 @@
   {
     "id": 20445,
     "Key": "r28",
-    "enUS": "\n~         Lo  Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcULo Rune ÿc9(ÿc128ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：羅",
     "deDE": "[fs]Lo-Rune",
     "esES": "Runa Lo",
     "frFR": "[fs]Rune Lo",
     "itIT": "[fs]Runa Lo",
-    "koKR": "\n~         로 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "로 룬",
     "plPL": "Runa Lo",
     "esMX": "Runa Lo",
     "jaJP": "ロー・ルーン",
@@ -206,13 +206,13 @@
   {
     "id": 20446,
     "Key": "r27",
-    "enUS": "\n~         Ohm Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUOhm Rune ÿc9(ÿc127ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：歐姆",
     "deDE": "[fs]Ohm-Rune",
     "esES": "Runa Ohm",
     "frFR": "[fs]Rune Ohm",
     "itIT": "[fs]Runa Ohm",
-    "koKR": "\n~         오움 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "오움 룬",
     "plPL": "Runa Ohm",
     "esMX": "Runa Ohm",
     "jaJP": "オーム・ルーン",
@@ -223,13 +223,13 @@
   {
     "id": 20447,
     "Key": "r26",
-    "enUS": "\n~         Vex Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUVex Rune ÿc9(ÿc126ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：伐克斯",
     "deDE": "[fs]Vex-Rune",
     "esES": "Runa Vex",
     "frFR": "[fs]Rune Vex",
     "itIT": "[fs]Runa Vex",
-    "koKR": "\n~         벡스 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "벡스 룬",
     "plPL": "Runa Vex",
     "esMX": "Runa Vex",
     "jaJP": "ヴェックス・ルーン",
@@ -240,13 +240,13 @@
   {
     "id": 20448,
     "Key": "r25",
-    "enUS": "\n~         Gul Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUGul Rune ÿc9(ÿc125ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：古爾",
     "deDE": "[fs]Gul-Rune",
     "esES": "Runa Gul",
     "frFR": "[fs]Rune Gul",
     "itIT": "[fs]Runa Gul",
-    "koKR": "\n~         굴 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "굴 룬",
     "plPL": "Runa Gul",
     "esMX": "Runa Gul",
     "jaJP": "ガル・ルーン",
@@ -257,13 +257,13 @@
   {
     "id": 20449,
     "Key": "r24",
-    "enUS": "\n~         Ist Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUIst Rune ÿc9(ÿc824ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：伊司特",
     "deDE": "[fs]Ist-Rune",
     "esES": "Runa Ist",
     "frFR": "[fs]Rune Ist",
     "itIT": "[fs]Runa Ist",
-    "koKR": "\n~         이스트 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "이스트 룬",
     "plPL": "Runa Ist",
     "esMX": "Runa Ist",
     "jaJP": "イスト・ルーン",
@@ -274,13 +274,13 @@
   {
     "id": 20450,
     "Key": "r23",
-    "enUS": "\n~         Mal Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUMal Rune ÿc9(ÿc823ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：馬爾",
     "deDE": "[fs]Mal-Rune",
     "esES": "Runa Mal",
     "frFR": "[fs]Rune Mal",
     "itIT": "[fs]Runa Mal",
-    "koKR": "\n~         말 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "말 룬",
     "plPL": "Runa Mal",
     "esMX": "Runa Mal",
     "jaJP": "マル・ルーン",
@@ -291,13 +291,13 @@
   {
     "id": 20451,
     "Key": "r22",
-    "enUS": "\n~         Um  Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUUm Rune ÿc9(ÿc822ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：烏姆",
     "deDE": "[fs]Um-Rune",
     "esES": "Runa Um",
     "frFR": "[fs]Rune Um",
     "itIT": "[fs]Runa Um",
-    "koKR": "\n~         우움 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "우움 룬",
     "plPL": "Runa Um",
     "esMX": "Runa Um",
     "jaJP": "アム・ルーン",
@@ -308,13 +308,13 @@
   {
     "id": 20452,
     "Key": "r21",
-    "enUS": "\n~         Pul Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcUPul Rune ÿc9(ÿc821ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：普爾",
     "deDE": "[fs]Pul-Rune",
     "esES": "Runa Pul",
     "frFR": "[fs]Rune Pul",
     "itIT": "[fs]Runa Pul",
-    "koKR": "\n~         풀 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "풀 룬",
     "plPL": "Runa Pul",
     "esMX": "Runa Pul",
     "jaJP": "プル・ルーン",
@@ -325,13 +325,13 @@
   {
     "id": 20453,
     "Key": "r20",
-    "enUS": "\n~         Lem Rune         ~\nÿc;~         Pick  Me         ~ÿc0\n",
+    "enUS": "ÿcULem Rune ÿc9(ÿc820ÿc9)\nÿc;•Pick  Up•ÿc0",
     "zhTW": "符文：藍姆",
     "deDE": "[fs]Lem-Rune",
     "esES": "Runa Lem",
     "frFR": "[fs]Rune Lem",
     "itIT": "[fs]Runa Lem",
-    "koKR": "\n~         렘 룬         ~\nÿc;~         주으세요         ~ÿc0\n",
+    "koKR": "렘 룬",
     "plPL": "Runa Lem",
     "esMX": "Runa Lem",
     "jaJP": "レム・ルーン",
@@ -342,7 +342,7 @@
   {
     "id": 20454,
     "Key": "r19",
-    "enUS": "Fal Rune",
+    "enUS": "Fal Rune ÿc9(ÿc819ÿc9)",
     "zhTW": "符文：法爾",
     "deDE": "[fs]Fal-Rune",
     "esES": "Runa Fal",
@@ -359,7 +359,7 @@
   {
     "id": 20455,
     "Key": "r18",
-    "enUS": "Ko Rune",
+    "enUS": "Ko Rune ÿc9(ÿc818ÿc9)",
     "zhTW": "符文：科",
     "deDE": "[fs]Ko-Rune",
     "esES": "Runa Ko",
@@ -376,7 +376,7 @@
   {
     "id": 20456,
     "Key": "r17",
-    "enUS": "Lum Rune",
+    "enUS": "Lum Rune ÿc9(ÿc817ÿc9)",
     "zhTW": "符文：盧姆",
     "deDE": "[fs]Lum-Rune",
     "esES": "Runa Lum",
@@ -393,7 +393,7 @@
   {
     "id": 20458,
     "Key": "r15",
-    "enUS": "Hel Rune",
+    "enUS": "Hel Rune ÿc9(ÿc315ÿc9)",
     "zhTW": "符文：海爾",
     "deDE": "[fs]Hel-Rune",
     "esES": "Runa Hel",
@@ -410,7 +410,7 @@
   {
     "id": 20459,
     "Key": "r14",
-    "enUS": "Dol Rune",
+    "enUS": "Dol Rune ÿc9(ÿc314ÿc9)",
     "zhTW": "符文：多爾",
     "deDE": "[fs]Dol-Rune",
     "esES": "Runa Dol",
@@ -427,7 +427,7 @@
   {
     "id": 20461,
     "Key": "r12",
-    "enUS": "Sol Rune",
+    "enUS": "Sol Rune ÿc9(ÿc312ÿc9)",
     "zhTW": "符文：索爾",
     "deDE": "[fs]Sol-Rune",
     "esES": "Runa Sol",
@@ -444,7 +444,7 @@
   {
     "id": 20462,
     "Key": "r11",
-    "enUS": "Amn Rune",
+    "enUS": "Amn Rune ÿc9(ÿc311ÿc9)",
     "zhTW": "符文：安姆",
     "deDE": "[fs]Amn-Rune",
     "esES": "Runa Amn",
@@ -461,7 +461,7 @@
   {
     "id": 20463,
     "Key": "r10",
-    "enUS": "Thul Rune",
+    "enUS": "Thul Rune ÿc9(ÿc310ÿc9)",
     "zhTW": "符文：書爾",
     "deDE": "[fs]Thul-Rune",
     "esES": "Runa Thul",
@@ -478,7 +478,7 @@
   {
     "id": 20464,
     "Key": "r09",
-    "enUS": "Ort Rune",
+    "enUS": "Ort Rune ÿc9(ÿc39ÿc9)",
     "zhTW": "符文：歐特",
     "deDE": "[fs]Ort-Rune",
     "esES": "Runa Ort",
@@ -495,7 +495,7 @@
   {
     "id": 20465,
     "Key": "r08",
-    "enUS": "Ral Rune",
+    "enUS": "Ral Rune ÿc9(ÿc08ÿc9)",
     "zhTW": "符文：拉爾",
     "deDE": "[fs]Ral-Rune",
     "esES": "Runa Ral",
@@ -512,7 +512,7 @@
   {
     "id": 20466,
     "Key": "r07",
-    "enUS": "Tal Rune",
+    "enUS": "Tal Rune ÿc9(ÿc07ÿc9)",
     "zhTW": "符文：塔爾",
     "deDE": "[fs]Tal-Rune",
     "esES": "Runa Tal",
@@ -529,7 +529,7 @@
   {
     "id": 20467,
     "Key": "r06",
-    "enUS": "Ith Rune",
+    "enUS": "Ith Rune ÿc9(ÿc06ÿc9)",
     "zhTW": "符文：伊司",
     "deDE": "[fs]Ith-Rune",
     "esES": "Runa Ith",
@@ -546,7 +546,7 @@
   {
     "id": 20468,
     "Key": "r05",
-    "enUS": "Eth Rune",
+    "enUS": "Eth Rune ÿc9(ÿc05ÿc9)",
     "zhTW": "符文：愛斯",
     "deDE": "[fs]Eth-Rune",
     "esES": "Runa Eth",
@@ -563,7 +563,7 @@
   {
     "id": 20469,
     "Key": "r04",
-    "enUS": "Nef Rune",
+    "enUS": "Nef Rune ÿc9(ÿc04ÿc9)",
     "zhTW": "符文：那夫",
     "deDE": "[fs]Nef-Rune",
     "esES": "Runa Nef",
@@ -580,7 +580,7 @@
   {
     "id": 20470,
     "Key": "r03",
-    "enUS": "Tir Rune",
+    "enUS": "Tir Rune ÿc9(ÿc03ÿc9)",
     "zhTW": "符文：特爾",
     "deDE": "[fs]Tir-Rune",
     "esES": "Runa Tir",
@@ -597,7 +597,7 @@
   {
     "id": 20471,
     "Key": "r02",
-    "enUS": "Eld Rune",
+    "enUS": "Eld Rune ÿc9(ÿc02ÿc9)",
     "zhTW": "符文：艾德",
     "deDE": "[fs]Eld-Rune",
     "esES": "Runa Eld",
@@ -614,7 +614,7 @@
   {
     "id": 20472,
     "Key": "r01",
-    "enUS": "El Rune",
+    "enUS": "El Rune ÿc9(ÿc01ÿc9)",
     "zhTW": "符文：艾爾",
     "deDE": "[fs]El-Rune",
     "esES": "Runa El",
@@ -625,7 +625,7 @@
     "esMX": "Runa El",
     "jaJP": "エル・ルーン",
     "ptBR": "Runa El",
-    "ruRU": "Руна Эл",
+    "ruRU": "Руна Эль",
     "zhCN": "艾尔符文"
   },
   {
@@ -812,7 +812,7 @@
     "esMX": "Um",
     "jaJP": "アム",
     "ptBR": "Um",
-    "ruRU": "Ом",
+    "ruRU": "Ум",
     "zhCN": "乌姆"
   },
   {
@@ -1033,7 +1033,7 @@
     "esMX": "Tal",
     "jaJP": "タル",
     "ptBR": "Tal",
-    "ruRU": "Тхаль",
+    "ruRU": "Тал",
     "zhCN": "塔尔"
   },
   {
@@ -1805,7 +1805,7 @@
     "id": 20546,
     "Key": "Runeword40",
     "enUS": "Flickering Flame",
-    "zhTW": "搖曳焰火",
+    "zhTW": "閃爍火焰",
     "deDE": "Flamme",
     "esES": "Llama trémula",
     "frFR": "Flamme vacillante",
@@ -2247,7 +2247,7 @@
     "id": 20572,
     "Key": "Runeword66",
     "enUS": "Kingslayer",
-    "zhTW": "拭王者",
+    "zhTW": "弒王者",
     "deDE": "Königsmord",
     "esES": "Regicida",
     "frFR": "Régicide",
@@ -2706,7 +2706,7 @@
     "id": 20599,
     "Key": "Runeword94",
     "enUS": "Obsession",
-    "zhTW": "著魔",
+    "zhTW": "執念",
     "deDE": "Besessenheit",
     "esES": "Obsesión",
     "frFR": "Obsession",
@@ -2757,7 +2757,7 @@
     "id": 20602,
     "Key": "Runeword97",
     "enUS": "Pattern",
-    "zhTW": "樣式",
+    "zhTW": "圖紋",
     "deDE": "Prasseln",
     "esES": "Patrón",
     "frFR": "Patron",
@@ -3675,7 +3675,7 @@
     "id": 20656,
     "Key": "Runeword151",
     "enUS": "Unbending Will",
-    "zhTW": "堅定意志",
+    "zhTW": "不屈意志",
     "deDE": "Unbeugsamer Wille",
     "esES": "Voluntad de hierro",
     "frFR": "Volonté inébranlable",
@@ -3683,7 +3683,7 @@
     "koKR": "불굴의 의지",
     "plPL": "Nieugięta Wola",
     "esMX": "Voluntad inflexible",
-    "jaJP": "不屈の意志",
+    "jaJP": "恒心",
     "ptBR": "Determinação",
     "ruRU": "Непреклонность",
     "zhCN": "不屈之志"
@@ -4012,308 +4012,156 @@
     "zhCN": "和风"
   },
   {
-
-"id": 27360,
-
-"Key": "Runeword171",
-
-"enUS": "Hustle",
-
-"zhTW": "催促",
-
-"deDE": "Hetze",
-
-"esES": "Apremio",
-
-"frFR": "Tumulte",
-
-"itIT": "Imbroglio",
-
-"koKR": "투지",
-
-"plPL": "Zgiełk",
-
-"esMX": "Apuro",
-
-"jaJP": "発奮",
-
-"ptBR": "Agitação",
-
-"ruRU": "Переполох",
-
-"zhCN": "喧嚣"
-
-},
-
-{
-
-"id": 27361,
-
-"Key": "Runeword172",
-
-"enUS": "Hustle",
-
-"zhTW": "催促",
-
-"deDE": "Hetze",
-
-"esES": "Apremio",
-
-"frFR": "Tumulte",
-
-"itIT": "Imbroglio",
-
-"koKR": "투지",
-
-"plPL": "Zgiełk",
-
-"esMX": "Apuro",
-
-"jaJP": "発奮",
-
-"ptBR": "Agitação",
-
-"ruRU": "Переполох",
-
-"zhCN": "喧嚣"
-
-},
-
-{
-
-"id": 27362,
-
-"Key": "Runeword173",
-
-"enUS": "Mosaic",
-
-"zhTW": "嵌飾",
-
-"deDE": "Mosaik",
-
-"esES": "Mosaico",
-
-"frFR": "Mosaïque",
-
-"itIT": "Mosaico",
-
-"koKR": "모자이크",
-
-"plPL": "Mozaika",
-
-"esMX": "Mosaico",
-
-"jaJP": "坩堝",
-
-"ptBR": "Mosaico",
-
-"ruRU": "Мозаика",
-
-"zhCN": "模糊"
-
-},
-
-{
-
-"id": 27363,
-
-"Key": "Runeword174",
-
-"enUS": "Metamorphosis",
-
-"zhTW": "變化",
-
-"deDE": "Metamorphose",
-
-"esES": "Metamorfosis",
-
-"frFR": "Métamorphose",
-
-"itIT": "Metamorfosi",
-
-"koKR": "탈태",
-
-"plPL": "Metamorfoza",
-
-"esMX": "Metamorfosis",
-
-"jaJP": "変容",
-
-"ptBR": "Metamorfose",
-
-"ruRU": "Метаморфоза",
-
-"zhCN": "变形"
-
-},
-
-{
-
-"id": 27364,
-
-"Key": "Runeword175",
-
-"enUS": "Ground",
-
-"zhTW": "接地",
-
-"deDE": "Boden",
-
-"esES": "Tierra",
-
-"frFR": "Terre",
-
-"itIT": "Suolo",
-
-"koKR": "접지",
-
-"plPL": "Grunt",
-
-"esMX": "Suelo",
-
-"jaJP": "大地",
-
-"ptBR": "Solo",
-
-"ruRU": "Земля",
-
-"zhCN": "地面"
-
-},
-
-{
-
-"id": 27365,
-
-"Key": "Runeword176",
-
-"enUS": "Temper",
-
-"zhTW": "和緩",
-
-"deDE": "Temperament",
-
-"esES": "Temperamento",
-
-"frFR": "Tempérament",
-
-"itIT": "Tempra",
-
-"koKR": "담금질",
-
-"plPL": "Charakter",
-
-"esMX": "Ira",
-
-"jaJP": "沈着",
-
-"ptBR": "Índole",
-
-"ruRU": "Закалка",
-
-"zhCN": "淬火"
-
-},
-
-{
-
-"id": 27366,
-
-"Key": "Runeword177",
-
-"enUS": "Hearth",
-
-"zhTW": "火爐",
-
-"deDE": "Heim",
-
-"esES": "Hogar",
-
-"frFR": "Âtre",
-
-"itIT": "Focolare",
-
-"koKR": "화로",
-
-"plPL": "Palenisko",
-
-"esMX": "Corazón",
-
-"jaJP": "炉辺",
-
-"ptBR": "Lar",
-
-"ruRU": "Очаг",
-
-"zhCN": "壁炉"
-
-},
-
-{
-
-"id": 27367,
-
-"Key": "Runeword178",
-
-"enUS": "Cure",
-
-"zhTW": "治癒",
-
-"deDE": "Heilung",
-
-"esES": "Cura",
-
-"frFR": "Remède",
-
-"itIT": "Cura",
-
-"koKR": "치료",
-
-"plPL": "Remedium",
-
-"esMX": "Cura",
-
-"jaJP": "治癒",
-
-"ptBR": "Cura",
-
-"ruRU": "Лекарство",
-
-"zhCN": "解药"
-
-},
-
-{
-
-"id": 27368,
-
-"Key": "Runeword179",
-
-"enUS": "Bulwark",
-
-"zhTW": "壁壘",
-
-"deDE": "Bollwerk",
-
-"esES": "Baluarte",
-
-"frFR": "Rempart",
-
-"itIT": "Baluardo",
-
-"koKR": "방벽",
-
-"plPL": "Szaniec",
-
-"esMX": "Baluarte",
-
-"jaJP": "防塁",
-
-"ptBR": "Bastião",
-
-"ruRU": "Оплот",
-
-"zhCN": "壁垒"
-
-}
+    "id": 27360,
+    "Key": "Runeword171",
+    "enUS": "Hustle",
+    "zhTW": "催促",
+    "deDE": "Hetze",
+    "esES": "Apremio",
+    "frFR": "Tumulte",
+    "itIT": "Imbroglio",
+    "koKR": "투지",
+    "plPL": "Zgiełk",
+    "esMX": "Apuro",
+    "jaJP": "発奮",
+    "ptBR": "Agitação",
+    "ruRU": "Переполох",
+    "zhCN": "喧嚣"
+  },
+  {
+    "id": 27361,
+    "Key": "Runeword172",
+    "enUS": "Hustle",
+    "zhTW": "催促",
+    "deDE": "Hetze",
+    "esES": "Apremio",
+    "frFR": "Tumulte",
+    "itIT": "Imbroglio",
+    "koKR": "투지",
+    "plPL": "Zgiełk",
+    "esMX": "Apuro",
+    "jaJP": "発奮",
+    "ptBR": "Agitação",
+    "ruRU": "Переполох",
+    "zhCN": "喧嚣"
+  },
+  {
+    "id": 27362,
+    "Key": "Runeword173",
+    "enUS": "Mosaic",
+    "zhTW": "嵌飾",
+    "deDE": "Mosaik",
+    "esES": "Mosaico",
+    "frFR": "Mosaïque",
+    "itIT": "Mosaico",
+    "koKR": "모자이크",
+    "plPL": "Mozaika",
+    "esMX": "Mosaico",
+    "jaJP": "坩堝",
+    "ptBR": "Mosaico",
+    "ruRU": "Мозаика",
+    "zhCN": "模糊"
+  },
+  {
+    "id": 27363,
+    "Key": "Runeword174",
+    "enUS": "Metamorphosis",
+    "zhTW": "變化",
+    "deDE": "Metamorphose",
+    "esES": "Metamorfosis",
+    "frFR": "Métamorphose",
+    "itIT": "Metamorfosi",
+    "koKR": "탈태",
+    "plPL": "Metamorfoza",
+    "esMX": "Metamorfosis",
+    "jaJP": "変容",
+    "ptBR": "Metamorfose",
+    "ruRU": "Метаморфоза",
+    "zhCN": "变形"
+  },
+  {
+    "id": 27364,
+    "Key": "Runeword175",
+    "enUS": "Ground",
+    "zhTW": "接地",
+    "deDE": "Boden",
+    "esES": "Tierra",
+    "frFR": "Terre",
+    "itIT": "Suolo",
+    "koKR": "접지",
+    "plPL": "Grunt",
+    "esMX": "Suelo",
+    "jaJP": "大地",
+    "ptBR": "Solo",
+    "ruRU": "Земля",
+    "zhCN": "地面"
+  },
+  {
+    "id": 27365,
+    "Key": "Runeword176",
+    "enUS": "Temper",
+    "zhTW": "和緩",
+    "deDE": "Temperament",
+    "esES": "Temperamento",
+    "frFR": "Tempérament",
+    "itIT": "Tempra",
+    "koKR": "담금질",
+    "plPL": "Charakter",
+    "esMX": "Ira",
+    "jaJP": "沈着",
+    "ptBR": "Índole",
+    "ruRU": "Закалка",
+    "zhCN": "淬火"
+  },
+  {
+    "id": 27366,
+    "Key": "Runeword177",
+    "enUS": "Hearth",
+    "zhTW": "火爐",
+    "deDE": "Heim",
+    "esES": "Hogar",
+    "frFR": "Âtre",
+    "itIT": "Focolare",
+    "koKR": "화로",
+    "plPL": "Palenisko",
+    "esMX": "Corazón",
+    "jaJP": "炉辺",
+    "ptBR": "Lar",
+    "ruRU": "Очаг",
+    "zhCN": "壁炉"
+  },
+  {
+    "id": 27367,
+    "Key": "Runeword178",
+    "enUS": "Cure",
+    "zhTW": "治癒",
+    "deDE": "Heilung",
+    "esES": "Cura",
+    "frFR": "Remède",
+    "itIT": "Cura",
+    "koKR": "치료",
+    "plPL": "Remedium",
+    "esMX": "Cura",
+    "jaJP": "治癒",
+    "ptBR": "Cura",
+    "ruRU": "Лекарство",
+    "zhCN": "解药"
+  },
+  {
+    "id": 27368,
+    "Key": "Runeword179",
+    "enUS": "Bulwark",
+    "zhTW": "壁壘",
+    "deDE": "Bollwerk",
+    "esES": "Baluarte",
+    "frFR": "Rempart",
+    "itIT": "Baluardo",
+    "koKR": "방벽",
+    "plPL": "Szaniec",
+    "esMX": "Baluarte",
+    "jaJP": "防塁",
+    "ptBR": "Bastião",
+    "ruRU": "Оплот",
+    "zhCN": "壁垒"
+  }
 ]

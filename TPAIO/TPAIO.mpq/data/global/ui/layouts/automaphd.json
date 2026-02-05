@@ -11,13 +11,9 @@
         "minOpacity": 1.0,
         "priority": -100,
         "miniScreenSizeFraction": 0.2,
-        // miniminiScreenSizeFraction decide map size
         "miniTileScale": 0.5,
-        // miniTileScale decide zoom in / out
         "miniOffsetLeft": { "x": 3052, "y": 20 },
-        // miniOffsetLeft disabled
         "miniOffsetRight": { "x": -20, "y": 20 },
-        // miniOffsetright decide up / down and left / right
         "tilesDefaultFilename": [
             "AUTOMAP/Default00/Tiles",
             "AUTOMAP/Default01/Tiles",
@@ -44,5 +40,32 @@
         "unitLabelFont": "Chat",
         "unitLabelOffset": 80,
         "unitLabelBackgroundOpacity": 0.5,
-    }
+    },
+    "children": [
+        {
+            "type": "TimerWidget", "name": "bakcgroundtimer2",
+            "fields": {
+                "time": 0,
+                "message": "PanelManager:ClosePanel:automapbackground",
+            },
+        },
+        {
+            "type": "TimerWidget", "name": "subbakcgroundtimer",
+            "fields": {
+                "time": 0,
+                "message": "PanelManager:OpenPanel:autominimapbackground",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "automapfull",
+            "fields": {
+                "rect": { "x": 697, "y": 361 },
+                "filename": "FrontEnd\\HD\\Final\\fullautomap",
+                "onClickMessage": "PanelManager:OpenPanel:automapfull",
+                "hoveredFrame": 2,
+                "disabledFrame": 2,
+                "sound": "item_book_hd4",
+            }
+        }
+    ]
 }

@@ -526,6 +526,34 @@
                 "hoveredFrame": 0,
             }
         },
+
+        // Recipes
+        {
+			"type": "ButtonWidget", "name": "Ivinfo_1", //유니크 무기
+			"fields": {
+				"rect": { "x": -20, "y": 700, "scale": 1.4 },
+				"filename": "PANEL/btn/btn_perple",
+				"hoveredFrame": 0,
+                "pressLabelOffset": [ 0, 0 ],
+				"onClickMessage": "PanelManager:TogglePanel:ItemDictionaryCubeRecipeMainPanelEng",
+                "tooltipString": "@dictTooltipCubeRecipes",
+				//"acceptsReturnKey": true,
+				"sound": "select"
+			}
+		},
+        {
+            "type": "ButtonWidget",
+            "name": "Ivinfo_1", //목걸이
+            "fields": {
+                "rect": { "x": 40, "y": 695, "scale": 0.9 },
+                "filename": "itemDictionary\\recipesbtn_x4",
+                "onClickMessage": "PanelManager:TogglePanel:ItemDictionaryCubeRecipeMainPanelEng",
+                "tooltipString": "@dictTooltipCubeRecipes",
+                "sound": "select",
+                "pressLabelOffset": [ 0, 0 ],
+                "hoveredFrame": 0,
+            }
+        },
         // {
         //     "type": "ButtonWidget",
         //     "name": "hudStr7", //갑옷

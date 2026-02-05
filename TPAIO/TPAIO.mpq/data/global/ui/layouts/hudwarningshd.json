@@ -1,9 +1,9 @@
 {
     "type": "HUDWarningsPanel", "name": "HUDWarnings",
     "fields": {
-        "priority": -110,
+        "priority": -97,
         "anchor": { "x": 1.008, "y": 0.0 },
-        "rect": { "x": -40, "y": 12 },
+        "rect": { "x": -40, "y": 450 },
         "showAutomapGameName": true,
         "showAutomapGamePassword": true,
         "showAutomapAreaName": true,
@@ -15,18 +15,12 @@
     },
     "children": [
         {
-            "type": "TimerWidget", "name": "timer2",
+            "type": "TimerWidget", "name": "minimaptimer",
             "fields": {
                 "time": 0,
                 "message": "PanelManager:OpenPanel:AutoMap",
             },
         },
-        {
-            "type": "ImageWidget", "name": "Map",
-            "fields": {
-                "filename": "FrontEnd\\HD\\Final\\Mapbackground"
-            },
-        }, 
         {
             "type": "LayoutItemWidget", "name": "InfoTextWrapper",
             "fields": {
