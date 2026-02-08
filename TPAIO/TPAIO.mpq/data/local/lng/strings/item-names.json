@@ -4371,7 +4371,7 @@
   {
     "id": 2182,
     "Key": "gpl",
-    "enUS": "Gas Pot ÿc21",
+    "enUS": "Gas ÿc21",
     "zhTW": "刺鼻毒氣藥水",
     "deDE": "Erstickungsgaselixier",
     "esES": "[fs]Poción de gas sofocante",
@@ -4388,7 +4388,7 @@
   {
     "id": 2183,
     "Key": "opl",
-    "enUS": "Fire Pot ÿc81",
+    "enUS": "Fire ÿc81",
     "zhTW": "烈性藥水",
     "deDE": "Knallelixier",
     "esES": "[fs]Poción fulminante",
@@ -4405,7 +4405,7 @@
   {
     "id": 2184,
     "Key": "gpm",
-    "enUS": "Gas Pot ÿc22",
+    "enUS": "Gas ÿc22",
     "zhTW": "窒息毒氣藥水",
     "deDE": "Würgegaselixier",
     "esES": "[fs]Poción de gas estrangulante",
@@ -4422,7 +4422,7 @@
   {
     "id": 2185,
     "Key": "opm",
-    "enUS": "Fire Pot ÿc82",
+    "enUS": "Fire ÿc82",
     "zhTW": "爆炸藥水",
     "deDE": "Explosivelixier",
     "esES": "[fs]Poción explosiva",
@@ -4439,7 +4439,7 @@
   {
     "id": 2186,
     "Key": "gps",
-    "enUS": "Gas Pot ÿc23",
+    "enUS": "Gas ÿc23",
     "zhTW": "腐臭毒氣藥水",
     "deDE": "Stinkgaselixier",
     "esES": "[fs]Poción de gas rancio",
@@ -4456,7 +4456,7 @@
   {
     "id": 2187,
     "Key": "ops",
-    "enUS": "Fire Pot ÿc83",
+    "enUS": "Fire ÿc83",
     "zhTW": "火油藥水",
     "deDE": "Ölelixier",
     "esES": "[fs]Poción de aceite",
@@ -4694,7 +4694,7 @@
   {
     "id": 2202,
     "Key": "isc",
-    "enUS": "ÿc1Identify",
+    "enUS": "ÿc1ID",
     "zhTW": "鑑定卷軸",
     "deDE": "Schriftrolle der Identifikation",
     "esES": "Pergamino de identificación",
@@ -5136,7 +5136,7 @@
   {
     "id": 2237,
     "Key": "gfv",
-    "enUS": "ÿc0Flaw ÿc;Amethyst",
+    "enUS": "ÿc0FLW ÿc;Amethyst",
     "zhTW": "瑕疵紫寶石",
     "deDE": "fehlerhafter Amethyst",
     "esES": "Amatista estropeada",
@@ -5153,7 +5153,7 @@
   {
     "id": 2238,
     "Key": "gsv",
-    "enUS": "Amethyst",
+    "enUS": "ÿc;Amethyst",
     "zhTW": "紫寶石",
     "deDE": "Amethyst",
     "esES": "Amatista",
@@ -5170,7 +5170,7 @@
   {
     "id": 2239,
     "Key": "gzv",
-    "enUS": "ÿc0Flawless ÿc;Amethyst",
+    "enUS": "ÿc0FLSS ÿc;Amethyst",
     "zhTW": "無瑕紫寶石",
     "deDE": "makelloser Amethyst",
     "esES": "Amatista sin defectos",
@@ -5221,7 +5221,7 @@
   {
     "id": 2242,
     "Key": "gfy",
-    "enUS": "ÿc0Flaw ÿc9Topaz",
+    "enUS": "ÿc0FLW ÿc9Topaz",
     "zhTW": "瑕疵黃寶石",
     "deDE": "fehlerhafter Topas",
     "esES": "Topacio estropeado",
@@ -5238,7 +5238,7 @@
   {
     "id": 2243,
     "Key": "gsy",
-    "enUS": "Topaz",
+    "enUS": "ÿc9Topaz",
     "zhTW": "黃寶石",
     "deDE": "Topas",
     "esES": "Topacio",
@@ -5255,7 +5255,7 @@
   {
     "id": 2244,
     "Key": "gly",
-    "enUS": "ÿc0Flawless ÿc9Topaz",
+    "enUS": "ÿc0FLSS ÿc9Topaz",
     "zhTW": "無瑕黃寶石",
     "deDE": "makelloser Topas",
     "esES": "Topacio sin defectos",
@@ -5306,7 +5306,7 @@
   {
     "id": 2247,
     "Key": "gfb",
-    "enUS": "ÿc0Flaw ÿc3Sapphire",
+    "enUS": "ÿc0FLW ÿc3Sapphire",
     "zhTW": "瑕疵藍寶石",
     "deDE": "fehlerhafter Saphir",
     "esES": "Zafiro estropeado",
@@ -5323,7 +5323,7 @@
   {
     "id": 2249,
     "Key": "glb",
-    "enUS": "ÿc0Flawless ÿc3Sapphire",
+    "enUS": "ÿc0FLSS ÿc3Sapphire",
     "zhTW": "無瑕藍寶石",
     "deDE": "makelloser Saphir",
     "esES": "Zafiro sin defectos",
@@ -5374,7 +5374,7 @@
   {
     "id": 2252,
     "Key": "gfg",
-    "enUS": "ÿc0Flaw ÿc2Emerald",
+    "enUS": "ÿc0FLW ÿc2Emerald",
     "zhTW": "瑕疵綠寶石",
     "deDE": "fehlerhafter Smaragd",
     "esES": "Esmeralda estropeada",
@@ -5391,7 +5391,7 @@
   {
     "id": 2253,
     "Key": "glg",
-    "enUS": "ÿc0Flawless ÿc2Emerald",
+    "enUS": "ÿc0FLSS ÿc2Emerald",
     "zhTW": "無瑕綠寶石",
     "deDE": "makelloser Smaragd",
     "esES": "Esmeralda sin defectos",
@@ -5442,7 +5442,7 @@
   {
     "id": 2257,
     "Key": "gfr",
-    "enUS": "ÿc0Flaw ÿc1Ruby",
+    "enUS": "ÿc0FLW ÿc1Ruby",
     "zhTW": "瑕疵紅寶石",
     "deDE": "fehlerhafter Rubin",
     "esES": "Rubí estropeado",
@@ -5459,7 +5459,7 @@
   {
     "id": 2259,
     "Key": "glr",
-    "enUS": "ÿc0Flawless ÿc1Ruby",
+    "enUS": "ÿc0FLSS ÿc1Ruby",
     "zhTW": "無瑕紅寶石",
     "deDE": "makelloser Rubin",
     "esES": "Rubí sin defectos",
@@ -5510,7 +5510,7 @@
   {
     "id": 2262,
     "Key": "gfw",
-    "enUS": "Flaw Diamond",
+    "enUS": "FLW Diamond",
     "zhTW": "瑕疵鑽石",
     "deDE": "fehlerhafter Diamant",
     "esES": "Diamante estropeado",
@@ -5527,7 +5527,7 @@
   {
     "id": 2264,
     "Key": "glw",
-    "enUS": "Flawless Diamond",
+    "enUS": "FLSS Diamond",
     "zhTW": "無瑕鑽石",
     "deDE": "makelloser Diamant",
     "esES": "Diamante sin defectos",
@@ -5748,7 +5748,7 @@
   {
     "id": 2278,
     "Key": "skf",
-    "enUS": "ÿc0Flaw ÿc5Skull",
+    "enUS": "ÿc0FLW ÿc5Skull",
     "zhTW": "瑕疵骷髏石",
     "deDE": "fehlerhafter Schädel",
     "esES": "Cráneo estropeado",
@@ -5782,7 +5782,7 @@
   {
     "id": 2280,
     "Key": "skl",
-    "enUS": "ÿc0Flawless ÿc5Skull",
+    "enUS": "ÿc0FLSS ÿc5Skull",
     "zhTW": "無瑕骷髏石",
     "deDE": "makelloser Schädel",
     "esES": "Cráneo sin defectos",
@@ -16696,7 +16696,7 @@
   {
     "id": 20435,
     "Key": "cm1",
-    "enUS": "ÿcTSmall Charmÿc3",
+    "enUS": "Small Charm",
     "zhTW": "小型咒符",
     "deDE": "[ms]Kleiner Zauber",
     "esES": "[ms]Dije pequeño",
@@ -16730,7 +16730,7 @@
   {
     "id": 20437,
     "Key": "cm3",
-    "enUS": "ÿcTGrand Charmÿc3",
+    "enUS": "Grand Charm",
     "zhTW": "特大咒符",
     "deDE": "[ms]Riesenzauber",
     "esES": "[ms]Dije enorme",

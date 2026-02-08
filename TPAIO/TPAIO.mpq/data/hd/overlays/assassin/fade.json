@@ -3,9 +3,6 @@
         "particles": [
             {
                 "path": "data/hd/vfx/particles/overlays/assassin/fade/vfx_assassin_fade.particles"
-            },
-            {
-                "path": "data/hd/vfx/item4/fx_skill_icons_268.particles"
             }
         ],
         "models": [],
